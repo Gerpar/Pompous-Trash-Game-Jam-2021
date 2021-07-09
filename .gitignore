@@ -24,6 +24,8 @@ ExportedObj/
 *.pdb
 *.opendb
 *.VC.db
+*.log
+/Unity Files/Pompous Trash Game Jam 2021/logs
 
 # Unity3D generated meta files
 *.pidb.meta
