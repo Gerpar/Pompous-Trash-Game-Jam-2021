@@ -1,0 +1,34 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CameraController : MonoBehaviour
+{
+    [SerializeField] GameObject trackingObj;
+    [SerializeField] Vector2 xzOffset;
+    [SerializeField] float trackingSpeed;
+    [SerializeField] float camHeight;
+    // Start is called before the first frame update
+    void Start()
+    {
+        StartCoroutine(CameraTracking());
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+    /// <summary>
+    /// Moves the camera towards it's new position it should be
+    /// </summary>
+    IEnumerator CameraTracking()
+    {
+        Transform trackTrans = trackingObj.transform;
+        while(true)
+        {
+            transform.position = Vector3.Lerp(transform.position, new Vector3(trackTrans.position.x + xzOffset.x, camHeight, trackTrans.position.z + xzOffset.y), trackingSpeed * Time.deltaTime);
+            yield return new WaitForEndOfFrame();
+        }
+    }
+}
