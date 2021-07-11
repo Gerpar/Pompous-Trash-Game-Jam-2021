@@ -14,11 +14,6 @@ public class CameraController : MonoBehaviour
         StartCoroutine(CameraTracking());
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     /// <summary>
     /// Moves the camera towards it's new position it should be
     /// </summary>
@@ -28,6 +23,7 @@ public class CameraController : MonoBehaviour
         while(true)
         {
             transform.position = Vector3.Lerp(transform.position, new Vector3(trackTrans.position.x + xzOffset.x, camHeight, trackTrans.position.z + xzOffset.y), trackingSpeed * Time.deltaTime);
+            transform.LookAt(trackTrans);
             yield return new WaitForEndOfFrame();
         }
     }

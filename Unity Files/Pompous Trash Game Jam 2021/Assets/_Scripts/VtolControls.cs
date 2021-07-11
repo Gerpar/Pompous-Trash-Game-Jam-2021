@@ -6,7 +6,9 @@ public class VtolControls : MonoBehaviour
 {
     [SerializeField] GameObject thrusterTL, thrusterTR, thrusterBL, thrusterBR, pitchUp, pitchDown, rollRight, rollLeft;
     [SerializeField] float thrusterForce;
-    [SerializeField] float maxTilt = 45;
+
+    [Header("VTOL Stabilizers")]
+    [SerializeField][Tooltip("How many degrees the VTOL can tip before stabilizers take effect")] float maxTilt = 45;
     [SerializeField] float minHeight = 1.0f;
     [SerializeField] float maxHeight = 5.0f;
 
@@ -25,7 +27,9 @@ public class VtolControls : MonoBehaviour
         HeightConstraint();
     }
 
-    // Handles the thrust when buttons are pressed
+    /// <summary>
+    /// Handles the ship's thrust when inputs are pressed
+    /// </summary>
     void Thrusters()
     {
         // Apply thruster forces based on the key pressed in the correct position
@@ -47,7 +51,9 @@ public class VtolControls : MonoBehaviour
         }
     }
 
-    // "Stabilizes" the flight of the VTOL
+    /// <summary>
+    /// Stabilizes the flight of the VTOL by adding force to counter tipping if the ship begins to tip over the degree limiter. Force increases the greater the difference over the limit
+    /// </summary>
     void Stabilizer()
     {
         Quaternion currentRot = transform.rotation;
@@ -86,6 +92,9 @@ public class VtolControls : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Soft caps Y Axis between minHeight and maxHeight
+    /// </summary>
     void HeightConstraint()
     {
         if(transform.position.y < minHeight)
