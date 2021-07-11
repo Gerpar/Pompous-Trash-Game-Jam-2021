@@ -556,3 +556,64 @@ System memory in use after: 70.8 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1983.
 Total: 2.203600 ms (FindLiveObjects: 0.208400 ms CreateObjectMapping: 0.047900 ms MarkObjects: 1.861000 ms  DeleteObjects: 0.085200 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 4109.099245 seconds.
+  path: Assets/_Scripts/DataEntry.cs
+  artifactKey: Guid(082ac0d5aac85bf40ab0c8bc68acb851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/DataEntry.cs using Guid(082ac0d5aac85bf40ab0c8bc68acb851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b163c6c46db1bba80d16f6e2c47f760a') in 0.012958 seconds
+  Import took 0.016724 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001173 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.800 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1455 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.8 MB.
+System memory in use after: 70.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 2.905300 ms (FindLiveObjects: 0.266400 ms CreateObjectMapping: 0.052900 ms MarkObjects: 2.485300 ms  DeleteObjects: 0.099000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5062.550407 seconds.
+  path: Assets/_Scripts/DropZoneController.cs
+  artifactKey: Guid(0521527a58e44664889580dc99655bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/DropZoneController.cs using Guid(0521527a58e44664889580dc99655bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ff571c8cda64d94db32c7e7aa8a542') in 0.009976 seconds
+  Import took 0.013473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025523 seconds.
+  path: Assets/_Scripts/DropZoneController.cs
+  artifactKey: Guid(0521527a58e44664889580dc99655bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/DropZoneController.cs using Guid(0521527a58e44664889580dc99655bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ff571c8cda64d94db32c7e7aa8a542') in 0.002968 seconds
+  Import took 0.005920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.036064 seconds.
+  path: Assets/_Scripts/Leaderboard.cs
+  artifactKey: Guid(72cfa97f18330f441bd945dfca00e6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Leaderboard.cs using Guid(72cfa97f18330f441bd945dfca00e6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ed6a69a069bcd0ccebe80395b6dff7') in 0.007074 seconds
+  Import took 0.010457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001821 seconds.
+  path: Assets/_Scripts/Leaderboard.cs
+  artifactKey: Guid(72cfa97f18330f441bd945dfca00e6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Leaderboard.cs using Guid(72cfa97f18330f441bd945dfca00e6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ed6a69a069bcd0ccebe80395b6dff7') in 0.002747 seconds
+  Import took 0.005941 seconds .
+
