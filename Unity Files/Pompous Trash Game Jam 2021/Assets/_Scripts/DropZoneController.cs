@@ -4,17 +4,7 @@ using UnityEngine;
 
 public class DropZoneController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public Leaderboard board;
 
     //Detect collisions between the GameObjects with Colliders attached
     void OnCollisionEnter(Collision collision)
@@ -26,6 +16,7 @@ public class DropZoneController : MonoBehaviour
             gameObject.GetComponent<Renderer>().material.color = new Color(0, 128, 0);
             //If the GameObject's name matches the one you suggest, output this message in the console
             Debug.Log("Do something here");
+            board.SaveScore();
         }
 
         //Check for a match with the specific tag on any GameObject that collides with your GameObject

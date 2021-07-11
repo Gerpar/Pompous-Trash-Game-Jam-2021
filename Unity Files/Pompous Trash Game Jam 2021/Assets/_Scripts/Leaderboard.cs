@@ -7,10 +7,10 @@ using System.Runtime.Serialization.Formatters.Binary;
 public class Leaderboard : MonoBehaviour
 {
     int idNum = 0;
-    void SaveScore()
+    public void SaveScore()
     {
         BinaryFormatter formatter = new BinaryFormatter();
-        string path = Application.persistentDataPath + "/data.bin";
+        string path = Application.persistentDataPath + "/data.fun";
         if (File.Exists(path))
         {
             FileStream stream = new FileStream(path, FileMode.Open);
@@ -29,15 +29,15 @@ public class Leaderboard : MonoBehaviour
 
             DataEntry data = new DataEntry("jon", 1, idNum);
             idNum += 1;
-
+            Debug.Log(data);
             formatter.Serialize(stream, data);
             stream.Close();
         }
     }
 
-    void GetLeaderBoard()
+    public void GetLeaderBoard()
     {
-        string path = Application.persistentDataPath + "/data.bin";
+        string path = Application.persistentDataPath + "/data.fun";
         if (File.Exists(path))
         {
             BinaryFormatter formatter = new BinaryFormatter();
