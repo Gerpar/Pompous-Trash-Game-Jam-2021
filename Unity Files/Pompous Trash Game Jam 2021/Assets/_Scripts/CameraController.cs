@@ -8,10 +8,21 @@ public class CameraController : MonoBehaviour
     [SerializeField] Vector2 xzOffset;
     [SerializeField] float trackingSpeed;
     [SerializeField] float camHeight;
+    [SerializeField] float mouseSensitivity = 1.0f;
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(CameraTracking());
+    }
+
+    void Update()
+    {
+        
+    }
+
+    void RotateCamera()
+    {
+
     }
 
     /// <summary>
