@@ -26,6 +26,7 @@ public class DropZoneController : MonoBehaviour
             gameObject.GetComponent<Renderer>().material.color = new Color(255, 0, 0);
             //If the GameObject has the same tag as specified, output this message in the console
             Debug.Log("Do something else here");
+            board.GetLeaderBoard();
         }
     }
 }

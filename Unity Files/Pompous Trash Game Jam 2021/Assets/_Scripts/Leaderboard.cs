@@ -29,7 +29,7 @@ public class Leaderboard : MonoBehaviour
 
             DataEntry data = new DataEntry("jon", 1, idNum);
             idNum += 1;
-            Debug.Log(data);
+            Debug.Log(data.score);
             formatter.Serialize(stream, data);
             stream.Close();
         }
@@ -43,9 +43,9 @@ public class Leaderboard : MonoBehaviour
             BinaryFormatter formatter = new BinaryFormatter();
             FileStream stream = new FileStream(path, FileMode.Open);
 
-            DataEntry[] data = (DataEntry[])formatter.Deserialize(stream);
+            DataEntry data = (DataEntry)formatter.Deserialize(stream);
 
-            Debug.Log(data);
+            Debug.Log(data.score);
 
             stream.Close();
         }

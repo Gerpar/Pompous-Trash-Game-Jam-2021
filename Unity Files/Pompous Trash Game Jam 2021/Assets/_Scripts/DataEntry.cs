@@ -5,9 +5,9 @@ using UnityEngine;
 [System.Serializable]
 public class DataEntry
 {
-    string userName;
-    int score;
-    int idNum;
+    public string userName;
+    public int score;
+    public int idNum;
 
     public DataEntry(string userName, int score, int idNum)
     {
