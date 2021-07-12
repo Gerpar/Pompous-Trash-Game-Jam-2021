@@ -1,2026 +1,276 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1083; Version 2009; 64bit' Language: 'en' Physical Memory: 16256 MB
+OS: 'Windows 10 Home; OS build 19041.1083; Version 2004; 64bit' Language: 'en' Physical Memory: 32702 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Game Development\Software\Unity\2020.3.7f1\Editor\Unity.exe
+V:\Program Files\Unity Versions\2020.3.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/GitHub/TrashJamRepo/Pompous-Trash-Game-Jam-2021/Unity Files/Pompous Trash Game Jam 2021
+V:/__Game Dev/_Github/Pompous Trash Game Jam 2021/Pompous-Trash-Game-Jam-2021/Unity Files/Pompous Trash Game Jam 2021
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60808
-Successfully changed project path to: D:/GitHub/TrashJamRepo/Pompous-Trash-Game-Jam-2021/Unity Files/Pompous Trash Game Jam 2021
-D:/GitHub/TrashJamRepo/Pompous-Trash-Game-Jam-2021/Unity Files/Pompous Trash Game Jam 2021
+56395
+Successfully changed project path to: V:/__Game Dev/_Github/Pompous Trash Game Jam 2021/Pompous-Trash-Game-Jam-2021/Unity Files/Pompous Trash Game Jam 2021
+V:/__Game Dev/_Github/Pompous Trash Game Jam 2021/Pompous-Trash-Game-Jam-2021/Unity Files/Pompous Trash Game Jam 2021
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 36.99 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
-[Subsystems] Discovering subsystems at path D:/Game Development/Software/Unity/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GitHub/TrashJamRepo/Pompous-Trash-Game-Jam-2021/Unity Files/Pompous Trash Game Jam 2021/Assets
+[Subsystems] Discovering subsystems at path V:/Program Files/Unity Versions/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path V:/__Game Dev/_Github/Pompous Trash Game Jam 2021/Pompous-Trash-Game-Jam-2021/Unity Files/Pompous Trash Game Jam 2021/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c60)
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
     Vendor:   
-    VRAM:     6052 MB
-    Driver:   27.21.14.6079
+    VRAM:     8079 MB
+    Driver:   27.21.14.6647
 Initialize mono
-Mono path[0] = 'D:/Game Development/Software/Unity/2020.3.7f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Game Development/Software/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Game Development/Software/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Mono path[0] = 'V:/Program Files/Unity Versions/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'V:/Program Files/Unity Versions/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'V:/Program Files/Unity Versions/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Game Development/Software/Unity/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002175 seconds.
+Register platform support module: V:/Program Files/Unity Versions/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: V:/Program Files/Unity Versions/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001395 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.45 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 29.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.350 seconds
+- Completed reload, in  2.050 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000657 seconds.
+Registered in 0.000623 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.164 seconds
+- Completed reload, in  0.928 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1483 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 73.1 MB.
-System memory in use after: 73.2 MB.
+System memory in use after: 49.4 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1926.
-Total: 3.394500 ms (FindLiveObjects: 0.589400 ms CreateObjectMapping: 0.251000 ms MarkObjects: 2.465500 ms  DeleteObjects: 0.087300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Art Assets/Models/junk_gear.fbx
-  artifactKey: Guid(4cbfbf302610ab04da5afb2c735cff3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Models/junk_gear.fbx using Guid(4cbfbf302610ab04da5afb2c735cff3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1160a05907bcb7ba1b0f469dbd6461e7') in 0.219136 seconds
-  Import took 0.222188 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1928.
+Total: 3.454800 ms (FindLiveObjects: 0.187600 ms CreateObjectMapping: 0.035200 ms MarkObjects: 3.114700 ms  DeleteObjects: 0.116100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Art Assets/Models/junk_car.fbx
-  artifactKey: Guid(9ded6f010596674468d62925cae8939f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Models/junk_car.fbx using Guid(9ded6f010596674468d62925cae8939f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d15c31dacb3815fc784ec7579086ec') in 0.138603 seconds
-  Import took 0.179248 seconds .
+  path: Assets/Prefabs/PlayerVTOL.prefab
+  artifactKey: Guid(d11d8b4138dddaf4380444558eafdca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerVTOL.prefab using Guid(d11d8b4138dddaf4380444558eafdca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5cea74d744082262f161f33955b2a4') in 0.275786 seconds
+  Import took 0.279697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Prefabs/Thruster-Active.prefab
+  artifactKey: Guid(61b0808592b5cf54b95543c1599c3e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Thruster-Active.prefab using Guid(61b0808592b5cf54b95543c1599c3e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a84f830cbbfdbc95793cb2f1d5e68e') in 0.021090 seconds
+  Import took 0.024983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Prefabs/Main Menu.prefab
+  artifactKey: Guid(54416b92847c00c4ebcd025ba7fa97ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main Menu.prefab using Guid(54416b92847c00c4ebcd025ba7fa97ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e7db3b64b9b83e64b0ce24f3fcf9f5') in 0.253524 seconds
+  Import took 0.256772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Prefabs/Thruster Particles.prefab
+  artifactKey: Guid(f02812c191c49a5488c1c3751596898f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Thruster Particles.prefab using Guid(f02812c191c49a5488c1c3751596898f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f644269618d3c11a8631dba1373c25') in 0.009764 seconds
+  Import took 0.012311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Prefabs/model_bleachers.prefab
+  artifactKey: Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/model_bleachers.prefab using Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d983f0d44bfa37b59fa96f19be32869') in 0.142374 seconds
+  Import took 0.145596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Scenes/lvl_01.unity
+  artifactKey: Guid(23ff67a157faac34ebc24de88241c93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/lvl_01.unity using Guid(23ff67a157faac34ebc24de88241c93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dfc7950d607b1c86325a943c77c88a') in 0.010181 seconds
+  Import took 0.012826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.726226 seconds.
+  path: Assets/Scenes/Testing Scenes/GeradP_Testing 1.unity
+  artifactKey: Guid(2cf98d84226ff1447af26e57012335b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Testing Scenes/GeradP_Testing 1.unity using Guid(2cf98d84226ff1447af26e57012335b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ab41f2deb30cc5d7ffcef1ff447f38') in 0.008279 seconds
+  Import took 0.010770 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000647 seconds.
+Registered in 0.000699 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.109 seconds
+- Completed reload, in  0.884 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1455 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 74.2 MB.
-System memory in use after: 74.3 MB.
+System memory in use after: 74.2 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1972.
-Total: 2.766500 ms (FindLiveObjects: 0.456600 ms CreateObjectMapping: 0.155600 ms MarkObjects: 2.134600 ms  DeleteObjects: 0.017900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 185.242982 seconds.
-  path: Assets/Prefabs/model_bleachers.prefab
-  artifactKey: Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/model_bleachers.prefab using Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6eedc19970e7f522c2a2460f575534') in 0.090782 seconds
-  Import took 0.096784 seconds .
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1942.
+Total: 1.800500 ms (FindLiveObjects: 0.173100 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.491800 ms  DeleteObjects: 0.099000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.382779 seconds.
-  path: Assets/Prefabs/model_bleachers.prefab
-  artifactKey: Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/model_bleachers.prefab using Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ada6119c8e9ab4c3fc074713f7c52f') in 0.029570 seconds
-  Import took 0.033849 seconds .
+  Time since last request: 61.952338 seconds.
+  path: Assets/Scenes/lvl_02.unity
+  artifactKey: Guid(09c465ecc080dcb47b8ae15dc85f9a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/lvl_02.unity using Guid(09c465ecc080dcb47b8ae15dc85f9a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca53510e8cd75f224e751a759d7a19fc') in 0.018073 seconds
+  Import took 0.020737 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 50.766529 seconds.
-  path: Assets/Prefabs/model_bleachers.prefab
-  artifactKey: Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/model_bleachers.prefab using Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c520f41529acf8cd38aa0306ccb613cd') in 0.027157 seconds
-  Import took 0.052625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.388273 seconds.
-  path: Assets/Prefabs/model_bleachers.prefab
-  artifactKey: Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/model_bleachers.prefab using Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4fb2113906fd725c2a6c0ad0c0f757') in 0.026731 seconds
-  Import took 0.231848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.640214 seconds.
+  Time since last request: 46.125851 seconds.
   path: Assets/Scenes/lvl_03.unity
   artifactKey: Guid(0e481618629fb56488b001c90c285046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lvl_03.unity using Guid(0e481618629fb56488b001c90c285046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fd173e4db28a3b6630e63743692a75') in 0.010720 seconds
-  Import took 0.014175 seconds .
+Start importing Assets/Scenes/lvl_03.unity using Guid(0e481618629fb56488b001c90c285046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fc69059ff70e534213e2461df3de52') in 0.008994 seconds
+  Import took 0.011510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.684276 seconds.
+  path: Assets/Prefabs/PlayerVTOL.prefab
+  artifactKey: Guid(d11d8b4138dddaf4380444558eafdca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerVTOL.prefab using Guid(d11d8b4138dddaf4380444558eafdca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd4b75861db59a236cc06d38a4d9faf') in 0.061723 seconds
+  Import took 0.064823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.809310 seconds.
+  path: Assets/Prefabs/PlayerVTOL.prefab
+  artifactKey: Guid(d11d8b4138dddaf4380444558eafdca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerVTOL.prefab using Guid(d11d8b4138dddaf4380444558eafdca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96503cf24123083ce1d8d7b0edb9d98c') in 0.013013 seconds
+  Import took 0.016018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019194 seconds.
+  path: Assets/Prefabs/PlayerVTOL.prefab
+  artifactKey: Guid(d11d8b4138dddaf4380444558eafdca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerVTOL.prefab using Guid(d11d8b4138dddaf4380444558eafdca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96503cf24123083ce1d8d7b0edb9d98c') in 0.011450 seconds
+  Import took 0.014440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.250360 seconds.
+  path: Assets/Prefabs/PlayerVTOL.prefab
+  artifactKey: Guid(d11d8b4138dddaf4380444558eafdca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerVTOL.prefab using Guid(d11d8b4138dddaf4380444558eafdca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4acc0a3fc29eb711e26c25599d727d') in 0.013990 seconds
+  Import took 0.017040 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000724 seconds.
+Registered in 0.000711 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.031 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.3 MB.
-System memory in use after: 74.4 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1976.
-Total: 3.281400 ms (FindLiveObjects: 0.268900 ms CreateObjectMapping: 0.130300 ms MarkObjects: 2.849900 ms  DeleteObjects: 0.017700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 160.030681 seconds.
-  path: Assets/Scenes/lvl_01.unity
-  artifactKey: Guid(23ff67a157faac34ebc24de88241c93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lvl_01.unity using Guid(23ff67a157faac34ebc24de88241c93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3071925be3a0cb5273b30b2f9de8b8') in 0.018263 seconds
-  Import took 0.022000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001303 seconds.
-  path: Assets/Scenes/lvl_01.unity
-  artifactKey: Guid(23ff67a157faac34ebc24de88241c93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lvl_01.unity using Guid(23ff67a157faac34ebc24de88241c93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3071925be3a0cb5273b30b2f9de8b8') in 0.002052 seconds
-  Import took 0.005021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.807087 seconds.
-  path: Assets/Prefabs/Physics Trash
-  artifactKey: Guid(e5b5c682b44ab4c43a491d1c1aac9720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Physics Trash using Guid(e5b5c682b44ab4c43a491d1c1aac9720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db57caf6fb511de215665faa798a9a13') in 0.011824 seconds
-  Import took 0.016282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.081822 seconds.
-  path: Assets/Prefabs/Hazards
-  artifactKey: Guid(1e7bf0b1b2432604f977d9d876c1d3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Hazards using Guid(1e7bf0b1b2432604f977d9d876c1d3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcce8a13980a389dec83e43b9671e135') in 0.011541 seconds
-  Import took 0.014145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.840342 seconds.
-  path: Assets/Prefabs/Physics Trash/junk_gear.prefab
-  artifactKey: Guid(f68b2678c683c2b4e8a1b0920596eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Physics Trash/junk_gear.prefab using Guid(f68b2678c683c2b4e8a1b0920596eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d7fed10693ec6289ca2f5865552c88') in 0.079254 seconds
-  Import took 0.083320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016562 seconds.
-  path: Assets/Prefabs/Physics Trash/junk_gear.prefab
-  artifactKey: Guid(f68b2678c683c2b4e8a1b0920596eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Physics Trash/junk_gear.prefab using Guid(f68b2678c683c2b4e8a1b0920596eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d7fed10693ec6289ca2f5865552c88') in 0.011717 seconds
-  Import took 0.016027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.651695 seconds.
-  path: Assets/Prefabs/Physics Trash/junk_car.prefab
-  artifactKey: Guid(cbc53f4b2c22dcc428e288fabcf4b3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Physics Trash/junk_car.prefab using Guid(cbc53f4b2c22dcc428e288fabcf4b3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39cbbf2e651e996dde15ac2106747b0') in 0.023572 seconds
-  Import took 0.027594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018028 seconds.
-  path: Assets/Prefabs/Physics Trash/junk_car.prefab
-  artifactKey: Guid(cbc53f4b2c22dcc428e288fabcf4b3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Physics Trash/junk_car.prefab using Guid(cbc53f4b2c22dcc428e288fabcf4b3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39cbbf2e651e996dde15ac2106747b0') in 0.012255 seconds
-  Import took 0.016237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.968894 seconds.
-  path: Assets/Prefabs/Physics Trash/junk_gear.prefab
-  artifactKey: Guid(f68b2678c683c2b4e8a1b0920596eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Physics Trash/junk_gear.prefab using Guid(f68b2678c683c2b4e8a1b0920596eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338e11669a4edc7e3e30e6edeacff3e9') in 0.010175 seconds
-  Import took 0.031545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013077 seconds.
-  path: Assets/Prefabs/Physics Trash/junk_gear.prefab
-  artifactKey: Guid(f68b2678c683c2b4e8a1b0920596eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Physics Trash/junk_gear.prefab using Guid(f68b2678c683c2b4e8a1b0920596eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338e11669a4edc7e3e30e6edeacff3e9') in 0.008214 seconds
-  Import took 0.013674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.761425 seconds.
-  path: Assets/Prefabs/Physics Trash/junk_gear.prefab
-  artifactKey: Guid(f68b2678c683c2b4e8a1b0920596eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Physics Trash/junk_gear.prefab using Guid(f68b2678c683c2b4e8a1b0920596eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51520b976426c23b639786c22ddbe74') in 0.009346 seconds
-  Import took 0.013021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027808 seconds.
-  path: Assets/Prefabs/Physics Trash/junk_gear.prefab
-  artifactKey: Guid(f68b2678c683c2b4e8a1b0920596eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Physics Trash/junk_gear.prefab using Guid(f68b2678c683c2b4e8a1b0920596eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51520b976426c23b639786c22ddbe74') in 0.009480 seconds
-  Import took 0.012592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.663447 seconds.
-  path: Assets/Prefabs/Physics Trash/junk_gear.prefab
-  artifactKey: Guid(f68b2678c683c2b4e8a1b0920596eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Physics Trash/junk_gear.prefab using Guid(f68b2678c683c2b4e8a1b0920596eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c214e1c2c96dcbdb16099125e829bd') in 0.009860 seconds
-  Import took 0.034031 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000736 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.163 seconds
+- Completed reload, in  0.892 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.4 MB.
-System memory in use after: 74.5 MB.
+Unloading 1455 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.2 MB.
+System memory in use after: 74.3 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1980.
-Total: 2.517400 ms (FindLiveObjects: 0.341400 ms CreateObjectMapping: 0.117400 ms MarkObjects: 2.038200 ms  DeleteObjects: 0.018500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 480.203760 seconds.
-  path: Assets/Art Assets/Collision Mesh
-  artifactKey: Guid(487ebaaab57f75a469a05fe2e5e2ab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Collision Mesh using Guid(487ebaaab57f75a469a05fe2e5e2ab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d6fdbb607121f3ceb8a52be2fc1e42') in 0.013063 seconds
-  Import took 0.016785 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1946.
+Total: 2.086000 ms (FindLiveObjects: 0.235300 ms CreateObjectMapping: 0.045600 ms MarkObjects: 1.694900 ms  DeleteObjects: 0.108800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.252345 seconds.
-  path: Assets/Art Assets/Models/lvl1.fbx
-  artifactKey: Guid(5dd0c32852c83794c83aa58ee677c013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Models/lvl1.fbx using Guid(5dd0c32852c83794c83aa58ee677c013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f3f4b2afb6315dbb42475193708652') in 0.147401 seconds
-  Import took 0.151890 seconds .
+  Time since last request: 505.048932 seconds.
+  path: Assets/_Scripts/DropZoneController.cs
+  artifactKey: Guid(0521527a58e44664889580dc99655bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/DropZoneController.cs using Guid(0521527a58e44664889580dc99655bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47964fc15ab5aea69420d05a49ccf9e6') in 0.019426 seconds
+  Import took 0.022161 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 161.066633 seconds.
-  path: Assets/Art Assets/Models/lvl1.fbx
-  artifactKey: Guid(5dd0c32852c83794c83aa58ee677c013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Models/lvl1.fbx using Guid(5dd0c32852c83794c83aa58ee677c013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c111c870b9c3b9221afd5968949a7669') in 0.034887 seconds
-  Import took 0.039398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.362706 seconds.
-  path: Assets/Art Assets/Collision Mesh/lvl1_collision.fbx
-  artifactKey: Guid(dcaaa07b935d8be40b76ebd6e84bfabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Collision Mesh/lvl1_collision.fbx using Guid(dcaaa07b935d8be40b76ebd6e84bfabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6c822803675ae530995e26df5b5e63') in 0.033917 seconds
-  Import took 0.038657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 415.301710 seconds.
-  path: Assets/Prefabs/Level.prefab
-  artifactKey: Guid(be3f4e1cedd5be54ea520ada484da4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Level.prefab using Guid(be3f4e1cedd5be54ea520ada484da4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683f2f87c6d633a43d3e43dd192465bd') in 0.023318 seconds
-  Import took 0.046186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000547 seconds.
-  path: Assets/Prefabs/Level.prefab
-  artifactKey: Guid(be3f4e1cedd5be54ea520ada484da4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Level.prefab using Guid(be3f4e1cedd5be54ea520ada484da4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683f2f87c6d633a43d3e43dd192465bd') in 0.010208 seconds
-  Import took 0.014559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.418180 seconds.
-  path: Assets/Prefabs/Level_01.prefab
-  artifactKey: Guid(be3f4e1cedd5be54ea520ada484da4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Level_01.prefab using Guid(be3f4e1cedd5be54ea520ada484da4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ebec2e90eaab7651c96df73e327ffb') in 0.016796 seconds
-  Import took 0.020473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018631 seconds.
-  path: Assets/Prefabs/Level_01.prefab
-  artifactKey: Guid(be3f4e1cedd5be54ea520ada484da4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Level_01.prefab using Guid(be3f4e1cedd5be54ea520ada484da4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ebec2e90eaab7651c96df73e327ffb') in 0.008749 seconds
-  Import took 0.012954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 113.539315 seconds.
-  path: Assets/Prefabs/Level_01.prefab
-  artifactKey: Guid(be3f4e1cedd5be54ea520ada484da4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Level_01.prefab using Guid(be3f4e1cedd5be54ea520ada484da4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2e6fb6c02291d24095d887cfc68139') in 0.008900 seconds
-  Import took 0.052479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.712891 seconds.
-  path: Assets/Prefabs/Level_01.prefab
-  artifactKey: Guid(be3f4e1cedd5be54ea520ada484da4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Level_01.prefab using Guid(be3f4e1cedd5be54ea520ada484da4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e984d9c4cd1dde78cd129db0e538418a') in 0.251806 seconds
-  Import took 0.255043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.738976 seconds.
-  path: Assets/Prefabs/Level_01.prefab
-  artifactKey: Guid(be3f4e1cedd5be54ea520ada484da4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Level_01.prefab using Guid(be3f4e1cedd5be54ea520ada484da4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623709eb7ab9ad4bd5785fd3febb344c') in 0.004888 seconds
-  Import took 0.024784 seconds .
+  Time since last request: 10.576465 seconds.
+  path: Assets/_Scripts/Leaderboard.cs
+  artifactKey: Guid(72cfa97f18330f441bd945dfca00e6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Leaderboard.cs using Guid(72cfa97f18330f441bd945dfca00e6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497b02e938c7cba7ba0affc37585c795') in 0.008337 seconds
+  Import took 0.010817 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000710 seconds.
+Registered in 0.000735 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.005 seconds
+- Completed reload, in  0.914 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.4 MB.
-System memory in use after: 74.5 MB.
+Unloading 1455 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.2 MB.
+System memory in use after: 74.3 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1984.
-Total: 2.057700 ms (FindLiveObjects: 0.292000 ms CreateObjectMapping: 0.079100 ms MarkObjects: 1.668500 ms  DeleteObjects: 0.016700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 106.825636 seconds.
-  path: Assets/Scenes/lvl_03.unity
-  artifactKey: Guid(0e481618629fb56488b001c90c285046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lvl_03.unity using Guid(0e481618629fb56488b001c90c285046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4077f0c382a7bcb70dd9b12199b72b19') in 0.025404 seconds
-  Import took 0.028643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.038224 seconds.
-  path: Assets/Art Assets/Models/level3_model.fbx
-  artifactKey: Guid(bf6611a40ee19c1469151ebcfff95936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Models/level3_model.fbx using Guid(bf6611a40ee19c1469151ebcfff95936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545b13503bc9fd463c772cc5f80b9ee5') in 0.130000 seconds
-  Import took 0.146844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 63.744887 seconds.
-  path: Assets/Art Assets/Models/level3_model.fbx
-  artifactKey: Guid(bf6611a40ee19c1469151ebcfff95936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Models/level3_model.fbx using Guid(bf6611a40ee19c1469151ebcfff95936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c859b544cbd46366e7e75e373cb6ed4') in 0.038896 seconds
-  Import took 0.055684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.337353 seconds.
-  path: Assets/Prefabs/Level_01.prefab
-  artifactKey: Guid(be3f4e1cedd5be54ea520ada484da4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Level_01.prefab using Guid(be3f4e1cedd5be54ea520ada484da4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4387ed129581a8eb41b101bccfd4f111') in 0.009875 seconds
-  Import took 0.048326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.510310 seconds.
-  path: Assets/Prefabs/Level_03.prefab
-  artifactKey: Guid(14f04925eb6f8af49aa9978c825df780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Level_03.prefab using Guid(14f04925eb6f8af49aa9978c825df780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d92f4d3d3f09e0af39b1accc1fd5889') in 0.030039 seconds
-  Import took 0.043733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.048417 seconds.
-  path: Assets/Prefabs/Level_03.prefab
-  artifactKey: Guid(14f04925eb6f8af49aa9978c825df780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Level_03.prefab using Guid(14f04925eb6f8af49aa9978c825df780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d92f4d3d3f09e0af39b1accc1fd5889') in 0.017462 seconds
-  Import took 0.021172 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1949.
+Total: 3.513200 ms (FindLiveObjects: 0.207700 ms CreateObjectMapping: 0.037900 ms MarkObjects: 3.167600 ms  DeleteObjects: 0.097700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000929 seconds.
+Registered in 0.000654 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.009 seconds
+- Completed reload, in  0.876 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.5 MB.
-System memory in use after: 74.6 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1988.
-Total: 2.767900 ms (FindLiveObjects: 0.372700 ms CreateObjectMapping: 0.062600 ms MarkObjects: 2.316500 ms  DeleteObjects: 0.014600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 77.195051 seconds.
-  path: Assets/Prefabs/Levels
-  artifactKey: Guid(a980421126ecd25459aa901819940999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Levels using Guid(a980421126ecd25459aa901819940999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03dabb66e942ef105f77f820f415e75') in 0.010925 seconds
-  Import took 0.282788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.072553 seconds.
-  path: Assets/Scenes/lvl_01.unity
-  artifactKey: Guid(23ff67a157faac34ebc24de88241c93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lvl_01.unity using Guid(23ff67a157faac34ebc24de88241c93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4869cb3248980d24f730e8995c06bed') in 0.023368 seconds
-  Import took 0.026798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 121.481641 seconds.
-  path: Assets/Art Assets/Models/model_bleachers.fbx
-  artifactKey: Guid(29f3c8386aeef1643a2d664a5c5ced37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Models/model_bleachers.fbx using Guid(29f3c8386aeef1643a2d664a5c5ced37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2903e6c10d068bf57a0f73992c6c9f3') in 0.099749 seconds
-  Import took 0.108743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 63.498671 seconds.
-  path: Assets/Art Assets/Models/model_bleachers.fbx
-  artifactKey: Guid(29f3c8386aeef1643a2d664a5c5ced37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Models/model_bleachers.fbx using Guid(29f3c8386aeef1643a2d664a5c5ced37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9760cace8bb9aaa936dffc818919a9d6') in 0.023743 seconds
-  Import took 0.026986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.276332 seconds.
-  path: Assets/Prefabs/model_bleachers.prefab
-  artifactKey: Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/model_bleachers.prefab using Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b810b4f2d4af453c2c3d48b9b94b345') in 0.022235 seconds
-  Import took 0.066383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 353.219951 seconds.
-  path: Assets/Scenes/lvl_02.unity
-  artifactKey: Guid(09c465ecc080dcb47b8ae15dc85f9a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lvl_02.unity using Guid(09c465ecc080dcb47b8ae15dc85f9a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38659802f589f84678c4e0ae91190c99') in 0.013775 seconds
-  Import took 0.300563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.851216 seconds.
-  path: Assets/Scenes/lvl_03.unity
-  artifactKey: Guid(0e481618629fb56488b001c90c285046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lvl_03.unity using Guid(0e481618629fb56488b001c90c285046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7020f9cddd3d479577b55c176949a7e1') in 0.002302 seconds
-  Import took 0.050515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 422.746812 seconds.
-  path: Assets/Art Assets/Textures/custom1(Clone) 1.png
-  artifactKey: Guid(e51401aedba767d4abf8dc541786c6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Textures/custom1(Clone) 1.png using Guid(e51401aedba767d4abf8dc541786c6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afaed0ab5722ac2e2836bfe0d6a5fc1c') in 0.035485 seconds
-  Import took 0.051878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.566475 seconds.
-  path: Assets/Art Assets/Textures/custom4(Clone).png
-  artifactKey: Guid(7fdc908bb2cb01d40b378f4b375a8b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Textures/custom4(Clone).png using Guid(7fdc908bb2cb01d40b378f4b375a8b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c20099fa10e2037eccfaecaa8fb0c1') in 0.019826 seconds
-  Import took 0.022728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.087167 seconds.
-  path: Assets/Art Assets/Textures/custom4(Clone).png
-  artifactKey: Guid(7fdc908bb2cb01d40b378f4b375a8b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Textures/custom4(Clone).png using Guid(7fdc908bb2cb01d40b378f4b375a8b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c20099fa10e2037eccfaecaa8fb0c1') in 0.022182 seconds
-  Import took 0.025632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 504.799597 seconds.
-  path: Assets/Art Assets/Textures/bricks(Clone).png
-  artifactKey: Guid(1ce14dc0d62687f489c85fa864dfee24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Textures/bricks(Clone).png using Guid(1ce14dc0d62687f489c85fa864dfee24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8301612768be782a21c68664127e7b') in 0.019548 seconds
-  Import took 0.024511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.843247 seconds.
-  path: Assets/Art Assets/Textures/bricks(Clone).png
-  artifactKey: Guid(1ce14dc0d62687f489c85fa864dfee24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Textures/bricks(Clone).png using Guid(1ce14dc0d62687f489c85fa864dfee24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6fb3a25dacd5822345d45c2c8242aa') in 0.016458 seconds
-  Import took 0.033532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 202.779901 seconds.
-  path: Assets/Art Assets/Textures/custom4(Clone).png
-  artifactKey: Guid(7fdc908bb2cb01d40b378f4b375a8b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Textures/custom4(Clone).png using Guid(7fdc908bb2cb01d40b378f4b375a8b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43884149098fe5f1657bb5fb67770c2') in 0.023843 seconds
-  Import took 0.027979 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.065658 seconds.
-  path: Assets/Art Assets/Textures/custom4(Clone).png
-  artifactKey: Guid(7fdc908bb2cb01d40b378f4b375a8b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Textures/custom4(Clone).png using Guid(7fdc908bb2cb01d40b378f4b375a8b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43884149098fe5f1657bb5fb67770c2') in 0.006579 seconds
-  Import took 0.010996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 281.758177 seconds.
-  path: Assets/Art Assets/Textures/custom5(Clone).png
-  artifactKey: Guid(c4f1e8715235ec04eb2855e3b73031a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Textures/custom5(Clone).png using Guid(c4f1e8715235ec04eb2855e3b73031a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b90ef5fc1f0f885afedb359d81716f7') in 0.014514 seconds
-  Import took 0.019451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 104.073427 seconds.
-  path: Assets/Art Assets/Textures/bricksDark(Clone).png
-  artifactKey: Guid(8870efe48e5169b41bdc3a4f6eab4ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Textures/bricksDark(Clone).png using Guid(8870efe48e5169b41bdc3a4f6eab4ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0da1f96d3fa9a04114d4ced94bf335') in 0.019518 seconds
-  Import took 0.052043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.032253 seconds.
-  path: Assets/Art Assets/Textures/bricksDark(Clone).png
-  artifactKey: Guid(8870efe48e5169b41bdc3a4f6eab4ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Textures/bricksDark(Clone).png using Guid(8870efe48e5169b41bdc3a4f6eab4ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0da1f96d3fa9a04114d4ced94bf335') in 0.006090 seconds
-  Import took 0.010052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.520019 seconds.
-  path: Assets/Art Assets/Textures/bricksDark(Clone).png
-  artifactKey: Guid(8870efe48e5169b41bdc3a4f6eab4ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Textures/bricksDark(Clone).png using Guid(8870efe48e5169b41bdc3a4f6eab4ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865d6452f97eacd6109bf4527b0c055c') in 0.019450 seconds
-  Import took 0.038769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.660333 seconds.
-  path: Assets/Art Assets/Textures/bricksDark(Clone).png
-  artifactKey: Guid(8870efe48e5169b41bdc3a4f6eab4ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Textures/bricksDark(Clone).png using Guid(8870efe48e5169b41bdc3a4f6eab4ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4333a7133e8044e79e43ef8895d15bb') in 0.021864 seconds
-  Import took 0.033703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049583 seconds.
-  path: Assets/Art Assets/Textures/bricksDark(Clone).png
-  artifactKey: Guid(8870efe48e5169b41bdc3a4f6eab4ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Textures/bricksDark(Clone).png using Guid(8870efe48e5169b41bdc3a4f6eab4ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4333a7133e8044e79e43ef8895d15bb') in 0.006025 seconds
-  Import took 0.008829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 291.679693 seconds.
-  path: Assets/Art Assets/Textures/custom4(Clone).png
-  artifactKey: Guid(7fdc908bb2cb01d40b378f4b375a8b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Textures/custom4(Clone).png using Guid(7fdc908bb2cb01d40b378f4b375a8b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340ed3dcf6774b0ff79c424d8d28431e') in 0.025257 seconds
-  Import took 0.030337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.619921 seconds.
-  path: Assets/Art Assets/Textures/_defaultMat(Clone).png
-  artifactKey: Guid(780d87b4ac3b2134895cd41e9e8eb918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Textures/_defaultMat(Clone).png using Guid(780d87b4ac3b2134895cd41e9e8eb918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24547abe01fef8f74d8d5f8371e39f63') in 0.019861 seconds
-  Import took 0.023878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.560900 seconds.
-  path: Assets/Art Assets/Textures/_defaultMat(Clone).png
-  artifactKey: Guid(780d87b4ac3b2134895cd41e9e8eb918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Textures/_defaultMat(Clone).png using Guid(780d87b4ac3b2134895cd41e9e8eb918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7aa06eb520e7ad1cf8185480c25de83') in 0.017488 seconds
-  Import took 0.043064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 344.555205 seconds.
-  path: Assets/Art Assets/Textures/custom1(Clone).png
-  artifactKey: Guid(1b87c3c988c0a3b459ad21a969037fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Textures/custom1(Clone).png using Guid(1b87c3c988c0a3b459ad21a969037fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7af5b3d8d876d50810189d78f0c77bc') in 0.024900 seconds
-  Import took 0.029877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.552793 seconds.
-  path: Assets/Scenes/lvl_01.unity
-  artifactKey: Guid(23ff67a157faac34ebc24de88241c93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lvl_01.unity using Guid(23ff67a157faac34ebc24de88241c93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc64feb274e4699a1baf0d71f5ad493') in 0.003089 seconds
-  Import took 0.063094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 918.298500 seconds.
-  path: Assets/Animation/Crowd.anim
-  artifactKey: Guid(ba4be3f3f3e0bbf4982a7ab87bc7a7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Crowd.anim using Guid(ba4be3f3f3e0bbf4982a7ab87bc7a7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a6c5f0a82c8ac69f326d75f5ea6c85') in 0.020907 seconds
-  Import took 0.030833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046763 seconds.
-  path: Assets/Animation/Crowd.anim
-  artifactKey: Guid(ba4be3f3f3e0bbf4982a7ab87bc7a7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Crowd.anim using Guid(ba4be3f3f3e0bbf4982a7ab87bc7a7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a6c5f0a82c8ac69f326d75f5ea6c85') in 0.015983 seconds
-  Import took 0.018981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.136239 seconds.
-  path: Assets/Animation/Crowd1.anim
-  artifactKey: Guid(3965dc862186bae4e93bd30a8cbd671a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Crowd1.anim using Guid(3965dc862186bae4e93bd30a8cbd671a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c61eaa2f555e7cd1fd81fb351ae613') in 0.010240 seconds
-  Import took 0.049474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 249.131764 seconds.
-  path: Assets/Prefabs/Cutout_1.prefab
-  artifactKey: Guid(1123f7a6e188dba4181785acec48e6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cutout_1.prefab using Guid(1123f7a6e188dba4181785acec48e6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '25945616398a6a4bfafe22842e6885a5') in 0.031751 seconds
-  Import took 0.034508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024747 seconds.
-  path: Assets/Prefabs/Cutout_1.prefab
-  artifactKey: Guid(1123f7a6e188dba4181785acec48e6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cutout_1.prefab using Guid(1123f7a6e188dba4181785acec48e6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '25945616398a6a4bfafe22842e6885a5') in 0.008439 seconds
-  Import took 0.012013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.752637 seconds.
-  path: Assets/Prefabs/model_bleachers.prefab
-  artifactKey: Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/model_bleachers.prefab using Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '3ef2f973ab7aa37e60bddb8973021aaf') in 0.028328 seconds
-  Import took 0.031787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.918168 seconds.
-  path: Assets/Prefabs/Cutout_1.prefab
-  artifactKey: Guid(1123f7a6e188dba4181785acec48e6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cutout_1.prefab using Guid(1123f7a6e188dba4181785acec48e6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '2070769489879db213b3f53430131ad9') in 0.020403 seconds
-  Import took 0.024194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Prefabs/model_bleachers.prefab
-  artifactKey: Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/model_bleachers.prefab using Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '4b68e61834e8700617a8871abfd8b150') in 0.027786 seconds
-  Import took 0.049590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.228580 seconds.
-  path: Assets/Prefabs/model_bleachers.prefab
-  artifactKey: Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/model_bleachers.prefab using Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0f0fd817108c4d21fd165e1c419e26') in 0.017251 seconds
-  Import took 0.020917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.645344 seconds.
-  path: Assets/Art Assets/Materials/bricksDark(Clone).mat
-  artifactKey: Guid(d8dff7d210c53024bae4d1ff42a5f5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Materials/bricksDark(Clone).mat using Guid(d8dff7d210c53024bae4d1ff42a5f5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b832fd573483711f94951486608556b') in 0.025906 seconds
-  Import took 0.076342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/Art Assets/Materials/metalLight(Clone).mat
-  artifactKey: Guid(c2b30b80e03fa23448b3eecad9982f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Materials/metalLight(Clone).mat using Guid(c2b30b80e03fa23448b3eecad9982f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10f9b19edf6eb4ab3d53e1199b87b63') in 0.031033 seconds
-  Import took 0.033872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Art Assets/Materials/mat_Shadow.mat
-  artifactKey: Guid(f2bdf8f624f712f4b9184be7756d1e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Materials/mat_Shadow.mat using Guid(f2bdf8f624f712f4b9184be7756d1e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c51df4fbe8767f266bc5cd7fd914ea') in 0.015740 seconds
-  Import took 0.019524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Art Assets/Materials/mat_black.mat
-  artifactKey: Guid(802fc039a6f58514d9ec4b1ecebe74c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Materials/mat_black.mat using Guid(802fc039a6f58514d9ec4b1ecebe74c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0376816e7c56ec02ec8faaa68fedcb') in 0.021412 seconds
-  Import took 0.036753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Art Assets/Materials/custom9(Clone).mat
-  artifactKey: Guid(ffeba56f20232b640935658b62c4e5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Materials/custom9(Clone).mat using Guid(ffeba56f20232b640935658b62c4e5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81096b1e510342d295c69263a10ac07a') in 0.017075 seconds
-  Import took 0.023126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Art Assets/Materials/mat_Crusher.mat
-  artifactKey: Guid(8ec33206ab169774e97f28c881c3261e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Materials/mat_Crusher.mat using Guid(8ec33206ab169774e97f28c881c3261e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655cb8c7dbc6bb50153f32711810cce7') in 0.018897 seconds
-  Import took 0.022417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Art Assets/Materials/mat_black.mat
-  artifactKey: Guid(802fc039a6f58514d9ec4b1ecebe74c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Materials/mat_black.mat using Guid(802fc039a6f58514d9ec4b1ecebe74c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0376816e7c56ec02ec8faaa68fedcb') in 0.008896 seconds
-  Import took 0.011766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003242 seconds.
-  path: Assets/Art Assets/Materials/mat_Crusher.mat
-  artifactKey: Guid(8ec33206ab169774e97f28c881c3261e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Materials/mat_Crusher.mat using Guid(8ec33206ab169774e97f28c881c3261e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655cb8c7dbc6bb50153f32711810cce7') in 0.027562 seconds
-  Import took 0.031078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 62.954425 seconds.
-  path: Assets/Animation/Quad.controller
-  artifactKey: Guid(27e2e0d99688c0940ae8fb39e4084eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Quad.controller using Guid(27e2e0d99688c0940ae8fb39e4084eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a66235e6c38348a300c7e3a8d13896') in 0.013960 seconds
-  Import took 0.016803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019044 seconds.
-  path: Assets/Animation/Quad.controller
-  artifactKey: Guid(27e2e0d99688c0940ae8fb39e4084eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Quad.controller using Guid(27e2e0d99688c0940ae8fb39e4084eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a66235e6c38348a300c7e3a8d13896') in 0.002391 seconds
-  Import took 0.005888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.641727 seconds.
-  path: Assets/Prefabs/Cutout_1 (5).prefab
-  artifactKey: Guid(fc0ed0f63bd3ded41b22c7743ed71d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cutout_1 (5).prefab using Guid(fc0ed0f63bd3ded41b22c7743ed71d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '84dbd19f02ff709de34975bf34fea060') in 0.269460 seconds
-  Import took 0.292723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.647694 seconds.
-  path: Assets/Prefabs/Cutout_2.prefab
-  artifactKey: Guid(fc0ed0f63bd3ded41b22c7743ed71d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cutout_2.prefab using Guid(fc0ed0f63bd3ded41b22c7743ed71d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '679402efcc71d6812850b0f81efd424d') in 0.019595 seconds
-  Import took 0.035089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.091014 seconds.
-  path: Assets/Prefabs/model_bleachers.prefab
-  artifactKey: Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/model_bleachers.prefab using Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '3a19c461b42bfc3a736812a8c20869c9') in 0.022623 seconds
-  Import took 0.026654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 244.227709 seconds.
-  path: Assets/Prefabs/model_bleachers.prefab
-  artifactKey: Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/model_bleachers.prefab using Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '7a1e713a5c6965fc963b75215bec12e1') in 0.035703 seconds
-  Import took 0.040363 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000617 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.166 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.7 MB.
-System memory in use after: 74.8 MB.
+Unloading 1455 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.2 MB.
+System memory in use after: 74.3 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1993.
-Total: 2.501500 ms (FindLiveObjects: 0.358300 ms CreateObjectMapping: 0.106500 ms MarkObjects: 2.013900 ms  DeleteObjects: 0.021300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.574509 seconds.
-  path: Assets/Prefabs/model_bleachers.prefab
-  artifactKey: Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/model_bleachers.prefab using Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '3ed5767f235c19f34d6237f36168096e') in 0.095576 seconds
-  Import took 0.099149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015474 seconds.
-  path: Assets/Prefabs/model_bleachers.prefab
-  artifactKey: Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/model_bleachers.prefab using Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Quad) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '3ed5767f235c19f34d6237f36168096e') in 0.024174 seconds
-  Import took 0.027278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 192.894845 seconds.
-  path: Assets/Prefabs/model_bleachers.prefab
-  artifactKey: Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/model_bleachers.prefab using Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73be30b42a0a3339322c5a7204482cf') in 0.022341 seconds
-  Import took 0.026326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.858840 seconds.
-  path: Assets/Prefabs/model_bleachers.prefab
-  artifactKey: Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/model_bleachers.prefab using Guid(be1b382ee9d6fe740ac22dde96f6066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbf1572ae0843deaf7f3b5c1d12845b') in 0.025533 seconds
-  Import took 0.050005 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1952.
+Total: 2.055900 ms (FindLiveObjects: 0.252000 ms CreateObjectMapping: 0.033800 ms MarkObjects: 1.577600 ms  DeleteObjects: 0.191500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

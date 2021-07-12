@@ -409,8 +409,8 @@ MonoBehaviour:
   maxTilt: 30
   minHeight: 7
   maxHeight: 10
-  thrusterEnabledParticles: {fileID: 0}
-  thrusterDisabledParticles: {fileID: 0}
+  thrusterEnabledParticles: {fileID: 3807062948422469741, guid: 61b0808592b5cf54b95543c1599c3e22, type: 3}
+  thrusterDisabledParticles: {fileID: 9207383508680718535, guid: f02812c191c49a5488c1c3751596898f, type: 3}
 --- !u!54 &260837345
 Rigidbody:
   m_ObjectHideFlags: 0
