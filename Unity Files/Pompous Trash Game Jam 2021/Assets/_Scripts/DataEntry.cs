@@ -9,10 +9,10 @@ public class DataEntry
     public int score;
     public int idNum;
 
-    public DataEntry(string userName, int score, int idNum)
+    public DataEntry(string newUserName, int newScore, int newIdNum)
     {
-        userName = userName;
-        score = score;
-        idNum = idNum;
+        userName = newUserName;
+        score = newScore;
+        idNum = newIdNum;
     }
 }
