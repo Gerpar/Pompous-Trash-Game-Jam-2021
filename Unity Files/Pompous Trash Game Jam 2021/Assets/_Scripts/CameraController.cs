@@ -31,9 +31,8 @@ public class CameraController : MonoBehaviour
     {
         // Apply rotation to the offset
         Quaternion camTurnAngle = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * mouseSensitivity, Vector3.up);
-        Quaternion camPitchAngle = Quaternion.AngleAxis(Input.GetAxisRaw("Mouse Y") * mouseSensitivity, transform.right);
 
-        camOffset = camTurnAngle * camPitchAngle * camOffset;
+        camOffset = camTurnAngle * camOffset;
 
         float scrollVal = Input.GetAxis("Mouse ScrollWheel");
 
