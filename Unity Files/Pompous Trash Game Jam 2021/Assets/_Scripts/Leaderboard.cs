@@ -7,43 +7,43 @@ using System.Runtime.Serialization.Formatters.Binary;
 public class Leaderboard : MonoBehaviour
 {
     int idNum = 0;
+    public DataEntry data;
     public void SaveScore()
     {
-        BinaryFormatter formatter = new BinaryFormatter();
+        BinaryFormatter bf = new BinaryFormatter();
         string path = Application.persistentDataPath + "/data.fun";
         if (File.Exists(path))
         {
             FileStream stream = new FileStream(path, FileMode.Open);
 
-            DataEntry data = new DataEntry("ajON", 1, idNum);
+            data = new DataEntry("ajON", 999, idNum);
             idNum += 1;
-
-            formatter.Serialize(stream, data);
+            Debug.Log(data.score);
+            bf.Serialize(stream, data);
 
             stream.Close();
-
         }
         else
         {
             FileStream stream = new FileStream(path, FileMode.Create);
 
-            DataEntry data = new DataEntry("jon", 1, idNum);
+            data = new DataEntry("jon", 999, idNum);
             idNum += 1;
             Debug.Log(data.score);
-            formatter.Serialize(stream, data);
+            bf.Serialize(stream, data);
             stream.Close();
         }
     }
 
     public void GetLeaderBoard()
     {
+        BinaryFormatter bf = new BinaryFormatter();
         string path = Application.persistentDataPath + "/data.fun";
         if (File.Exists(path))
         {
-            BinaryFormatter formatter = new BinaryFormatter();
             FileStream stream = new FileStream(path, FileMode.Open);
 
-            DataEntry data = (DataEntry)formatter.Deserialize(stream);
+            DataEntry data = (DataEntry)bf.Deserialize(stream);
 
             Debug.Log(data.score);
 

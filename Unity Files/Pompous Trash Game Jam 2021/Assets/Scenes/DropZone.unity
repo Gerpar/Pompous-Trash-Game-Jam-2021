@@ -444,6 +444,7 @@ GameObject:
   - component: {fileID: 385003792}
   - component: {fileID: 385003796}
   - component: {fileID: 385003797}
+  - component: {fileID: 385003798}
   m_Layer: 0
   m_Name: Drop Zone
   m_TagString: Untagged
@@ -540,6 +541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0521527a58e44664889580dc99655bb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  board: {fileID: 385003798}
 --- !u!95 &385003797
 Animator:
   serializedVersion: 3
@@ -559,6 +561,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &385003798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385003791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72cfa97f18330f441bd945dfca00e6a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1325074982
 GameObject:
   m_ObjectHideFlags: 0
