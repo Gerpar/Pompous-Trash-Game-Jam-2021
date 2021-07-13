@@ -10,7 +10,7 @@ public class DropZoneController : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         //Check for a match with the specified name on any GameObject that collides with your GameObject
-        if (collision.gameObject.name == "Trash A")
+        if (collision.gameObject.tag == "Trash A")
         {
             Destroy(collision.gameObject);
             gameObject.GetComponent<Renderer>().material.color = new Color(0, 128, 0);
@@ -20,7 +20,7 @@ public class DropZoneController : MonoBehaviour
         }
 
         //Check for a match with the specific tag on any GameObject that collides with your GameObject
-        if (collision.gameObject.name == "Trash B")
+        if (collision.gameObject.tag == "Trash B")
         {
             Destroy(collision.gameObject);
             gameObject.GetComponent<Renderer>().material.color = new Color(255, 0, 0);
