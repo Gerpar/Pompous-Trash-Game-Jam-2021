@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6378150657148954398
+--- !u!1 &7546094278409678746
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,11 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6378150657148954395}
-  - component: {fileID: 6378150657148954396}
-  - component: {fileID: 6378150657148954397}
-  - component: {fileID: 6378150657148954394}
-  - component: {fileID: 6378150657148954393}
+  - component: {fileID: 7546094278409678751}
+  - component: {fileID: 7546094278409678744}
+  - component: {fileID: 7546094278409678745}
+  - component: {fileID: 7546094278409678750}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -20,27 +19,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6378150657148954395
+--- !u!4 &7546094278409678751
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6378150657148954398}
+  m_GameObject: {fileID: 7546094278409678746}
   m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: 0, y: 20, z: -30}
+  m_LocalPosition: {x: 0, y: 10.77, z: -14.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
---- !u!20 &6378150657148954396
+--- !u!20 &7546094278409678744
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6378150657148954398}
+  m_GameObject: {fileID: 7546094278409678746}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -77,43 +76,29 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &6378150657148954397
+--- !u!81 &7546094278409678745
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6378150657148954398}
+  m_GameObject: {fileID: 7546094278409678746}
   m_Enabled: 1
---- !u!114 &6378150657148954394
+--- !u!114 &7546094278409678750
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6378150657148954398}
+  m_GameObject: {fileID: 7546094278409678746}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f88ee4195c6a4b478176278bc1c07a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   trackingObj: {fileID: 0}
-  xzOffset: {x: 0, y: -30}
-  trackingSpeed: 2
-  camHeight: 20
---- !u!54 &6378150657148954393
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6378150657148954398}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 1
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  trackingSpeed: 0.025
+  mouseSensitivity: 2
+  zoomSensitivity: 10
+  minZoomDistance: 5
+  maxZoomDistance: 20

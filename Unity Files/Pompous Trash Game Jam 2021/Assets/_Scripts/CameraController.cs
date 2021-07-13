@@ -5,26 +5,69 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     [SerializeField] GameObject trackingObj;
-    [SerializeField] Vector2 xzOffset;
     [SerializeField] float trackingSpeed;
-    [SerializeField] float camHeight;
+    [SerializeField] float mouseSensitivity = 1.0f;
+    [SerializeField] float zoomSensitivity = 10.0f;
+    [SerializeField] float minZoomDistance, maxZoomDistance;
+
+    Vector3 camOffset;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(CameraTracking());
+        //StartCoroutine(CameraTracking());
+        camOffset = transform.position - trackingObj.transform.position;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
-    /// <summary>
-    /// Moves the camera towards it's new position it should be
-    /// </summary>
-    IEnumerator CameraTracking()
+    void Update()
     {
-        Transform trackTrans = trackingObj.transform;
-        while(true)
+
+    }
+
+    private void LateUpdate()
+    {
+        // Apply rotation to the offset
+        Quaternion camTurnAngle = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * mouseSensitivity, Vector3.up);
+        Quaternion camPitchAngle = Quaternion.AngleAxis(Input.GetAxisRaw("Mouse Y") * mouseSensitivity, transform.right);
+
+        camOffset = camTurnAngle * camPitchAngle * camOffset;
+
+        float scrollVal = Input.GetAxis("Mouse ScrollWheel");
+
+        Vector3 newPos = trackingObj.transform.position + camOffset;
+
+        if (scrollVal != 0)
         {
-            transform.position = Vector3.Lerp(transform.position, new Vector3(trackTrans.position.x + xzOffset.x, camHeight, trackTrans.position.z + xzOffset.y), trackingSpeed * Time.deltaTime);
-            transform.LookAt(trackTrans);
-            yield return new WaitForEndOfFrame();
+            Vector3 newCamOffset = camOffset + transform.forward * scrollVal * zoomSensitivity;
+            float camDistance = Vector3.Distance(newPos, trackingObj.transform.position);
+
+            if (scrollVal < 0)
+            {
+                // Scrolling out
+                if (camDistance < maxZoomDistance)
+                {
+                    camOffset = newCamOffset;
+                    transform.position = Vector3.Slerp(transform.position, newPos, trackingSpeed);
+                }
+            }
+            if (scrollVal > 0)
+            {
+                // Scrolling in
+                if (camDistance > minZoomDistance)
+                {
+                    camOffset = newCamOffset;
+                    transform.position = Vector3.Slerp(transform.position, newPos, trackingSpeed);
+                }
+            }
         }
+        else
+        {
+            transform.position = Vector3.Slerp(transform.position, newPos, trackingSpeed);
+        }
+
+        transform.LookAt(trackingObj.transform);
     }
 }
