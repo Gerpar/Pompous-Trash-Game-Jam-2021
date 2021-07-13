@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class UI_Manager : MonoBehaviour
+public class Game_UI_Manager : MonoBehaviour
 {
     //------------------------------------------
     // UI_Manager - Jared J Roberge
@@ -12,13 +12,37 @@ public class UI_Manager : MonoBehaviour
     // This script is a singleton item meant to be placed in every scene. Store a reference to every single canvasGroup component
     // in the groups list to use functions that affect all canvas groups.
 
-    public static UI_Manager instance;
+    public static Game_UI_Manager instance;
+    private bool paused;
+    public CanvasGroup pauseMenu;
+
     public List<CanvasGroup> groups;
 
     private void Start()
     {
         instance = this;
+        paused = false;
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (paused)
+            {
+                paused = false;
+                ResumeGame();
+                HideAllGroups();
+            }
+            else
+            {
+                paused = true;
+                PauseGame();
+                ShowGroup(pauseMenu);
+            }
+        }
+    }
+
     //-------------------------------------------
     // These functions can be called anywhere by using UI_Manager.instance.yourFunction.
     // Or, you can hook some of them up to buttons and other UI elements.
@@ -39,12 +63,16 @@ public class UI_Manager : MonoBehaviour
 
     public void HideAllGroups()
     {
-        foreach(CanvasGroup g in groups)
+        foreach (CanvasGroup g in groups)
         {
             g.alpha = 0;
             g.interactable = false;
             g.blocksRaycasts = false;
         }
+
+        pauseMenu.alpha = 0;
+        pauseMenu.interactable = false;
+        pauseMenu.blocksRaycasts = false;
     }
 
     public void ShowAllGroups()
@@ -62,4 +90,15 @@ public class UI_Manager : MonoBehaviour
     {
         SceneManager.LoadScene(index);
     }
+
+    public void PauseGame()
+    {
+        Time.timeScale = 0;
+    }
+
+    public void ResumeGame()
+    {
+        Time.timeScale = 1;
+    }
 }
+
