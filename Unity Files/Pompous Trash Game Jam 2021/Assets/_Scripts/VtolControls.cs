@@ -59,7 +59,7 @@ public class VtolControls : MonoBehaviour
         // Apply thruster forces based on the key pressed in the correct position
         if (Input.GetButton("ThrusterTopLeft"))
         {
-            rb.AddForceAtPosition(0.5f * thrusterForce * -thrusterTL.transform.forward, thrusterTL.transform.position);
+            rb.AddForceAtPosition(0.5f * thrusterForce * -thrusterTL.transform.forward * Time.deltaTime, thrusterTL.transform.position);
             if (!TTLEnabled) ToggleThruster(Thruster.Top_Left);
         }
         else
@@ -69,7 +69,7 @@ public class VtolControls : MonoBehaviour
 
         if (Input.GetButton("ThrusterTopRight"))
         {
-            rb.AddForceAtPosition(0.5f * thrusterForce * -thrusterTR.transform.forward, thrusterTR.transform.position);
+            rb.AddForceAtPosition(0.5f * thrusterForce * -thrusterTR.transform.forward * Time.deltaTime, thrusterTR.transform.position);
             if (!TTREnabled) ToggleThruster(Thruster.Top_Right);
         }
         else
@@ -79,7 +79,7 @@ public class VtolControls : MonoBehaviour
 
         if (Input.GetButton("ThrusterBotLeft"))
         {
-            rb.AddForceAtPosition(0.5f * thrusterForce * -thrusterBL.transform.forward, thrusterBL.transform.position);
+            rb.AddForceAtPosition(0.5f * thrusterForce * -thrusterBL.transform.forward * Time.deltaTime, thrusterBL.transform.position);
             if (!TBLEnabled) ToggleThruster(Thruster.Bot_Left);
         }
         else
@@ -89,7 +89,7 @@ public class VtolControls : MonoBehaviour
 
         if (Input.GetButton("ThrusterBotRight"))
         {
-            rb.AddForceAtPosition(0.5f * thrusterForce * -thrusterBR.transform.forward, thrusterBR.transform.position);
+            rb.AddForceAtPosition(0.5f * thrusterForce * -thrusterBR.transform.forward * Time.deltaTime, thrusterBR.transform.position);
             if (!TBREnabled) ToggleThruster(Thruster.Bot_Right);
         }
         else
@@ -115,13 +115,13 @@ public class VtolControls : MonoBehaviour
         if (xA >= maxTilt && xA < 180)
         {
             diff = xA - maxTilt;
-            rb.AddForceAtPosition((thrusterForce * 1.5f + (diff / 100)) * pitchUp.transform.forward, pitchUp.transform.position);
+            rb.AddForceAtPosition((thrusterForce * 1.5f + (diff / 100)) * pitchUp.transform.forward * Time.deltaTime, pitchUp.transform.position);
         }
         // Tilting backwards detection
         else if (xA <= 360 - maxTilt && xA > 180)
         {
             diff = Mathf.Abs(360 - maxTilt - xA);
-            rb.AddForceAtPosition((thrusterForce * 1.5f + (diff / 100)) * pitchDown.transform.forward, pitchDown.transform.position);
+            rb.AddForceAtPosition((thrusterForce * 1.5f + (diff / 100)) * pitchDown.transform.forward * Time.deltaTime, pitchDown.transform.position);
         }
 
         ///Roll
@@ -129,13 +129,13 @@ public class VtolControls : MonoBehaviour
         if (zA >= maxTilt && zA < 180)
         {
             diff = zA - maxTilt;
-            rb.AddForceAtPosition((thrusterForce * 1.5f + (diff / 100)) * -rollLeft.transform.forward, rollLeft.transform.position);
+            rb.AddForceAtPosition((thrusterForce * 1.5f + (diff / 100)) * -rollLeft.transform.forward * Time.deltaTime, rollLeft.transform.position);
         }
         // Tilting Right Detection
         if (zA <= 360 - maxTilt && zA > 180)
         {
             diff = Mathf.Abs(360 - maxTilt - zA);
-            rb.AddForceAtPosition((thrusterForce * 1.5f + (diff / 100)) * -rollRight.transform.forward, rollRight.transform.position);
+            rb.AddForceAtPosition((thrusterForce * 1.5f + (diff / 100)) * -rollRight.transform.forward * Time.deltaTime, rollRight.transform.position);
         }
     }
 
@@ -146,11 +146,11 @@ public class VtolControls : MonoBehaviour
     {
         if(transform.position.y < minHeight)
         {
-            rb.AddForce(Vector3.up * (thrusterForce * 2));
+            rb.AddForce(Vector3.up * (thrusterForce * 2) * Time.deltaTime);
         }
         else if(transform.position.y > maxHeight)
         {
-            rb.AddForce(-Vector3.up * (thrusterForce * 2));
+            rb.AddForce(-Vector3.up * (thrusterForce * 2) * Time.deltaTime);
         }
     }
 
