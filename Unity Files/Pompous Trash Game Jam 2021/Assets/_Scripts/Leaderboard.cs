@@ -18,7 +18,9 @@ public class Leaderboard : MonoBehaviour
 
             data = new DataEntry("ajON", 999, idNum);
             idNum += 1;
+            Debug.Log(data.userName);
             Debug.Log(data.score);
+            Debug.Log(data.idNum);
             bf.Serialize(stream, data);
 
             stream.Close();
@@ -29,7 +31,9 @@ public class Leaderboard : MonoBehaviour
 
             data = new DataEntry("jon", 999, idNum);
             idNum += 1;
+            Debug.Log(data.userName);
             Debug.Log(data.score);
+            Debug.Log(data.idNum);
             bf.Serialize(stream, data);
             stream.Close();
         }
@@ -43,9 +47,11 @@ public class Leaderboard : MonoBehaviour
         {
             FileStream stream = new FileStream(path, FileMode.Open);
 
-            DataEntry data = (DataEntry)bf.Deserialize(stream);
+            data = (DataEntry)bf.Deserialize(stream);
 
+            Debug.Log(data.userName);
             Debug.Log(data.score);
+            Debug.Log(data.idNum);
 
             stream.Close();
         }
