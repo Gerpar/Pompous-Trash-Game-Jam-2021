@@ -772,10 +772,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 265427101, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
-      propertyPath: magnetRadius
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 1388654582275728844, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
       propertyPath: m_RootOrder
       value: 1
