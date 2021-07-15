@@ -17,6 +17,12 @@ public class VtolControls : MonoBehaviour
     [SerializeField] MagnetController attachedMagnet;
     [SerializeField] GameObject bumpVFX;
 
+    [Header("VTOL Audio")]
+    [SerializeField] AudioSource srcTL;
+    [SerializeField] AudioSource srcTR;
+    [SerializeField] AudioSource srcBL;
+    [SerializeField] AudioSource srcBR;
+
     Rigidbody rb;
 
     // TTL = Thruster Top Left
@@ -65,40 +71,48 @@ public class VtolControls : MonoBehaviour
         if (Input.GetButton("ThrusterTopLeft"))
         {
             rb.AddForceAtPosition(0.5f * thrusterForce * -thrusterTL.transform.forward * Time.deltaTime, thrusterTL.transform.position);
+            srcTL.Play();
             if (!TTLEnabled) ToggleThruster(Thruster.Top_Left);
         }
         else
         {
+            if (srcTL.isPlaying){srcTL.Stop();}
             if (TTLEnabled) ToggleThruster(Thruster.Top_Left);
         }
 
         if (Input.GetButton("ThrusterTopRight"))
         {
             rb.AddForceAtPosition(0.5f * thrusterForce * -thrusterTR.transform.forward * Time.deltaTime, thrusterTR.transform.position);
+            srcTR.Play();
             if (!TTREnabled) ToggleThruster(Thruster.Top_Right);
         }
         else
         {
+            if (srcTR.isPlaying) { srcTL.Stop(); }
             if (TTREnabled) ToggleThruster(Thruster.Top_Right);
         }
 
         if (Input.GetButton("ThrusterBotLeft"))
         {
             rb.AddForceAtPosition(0.5f * thrusterForce * -thrusterBL.transform.forward * Time.deltaTime, thrusterBL.transform.position);
+            srcBL.Play();
             if (!TBLEnabled) ToggleThruster(Thruster.Bot_Left);
         }
         else
         {
+            if (srcBL.isPlaying) { srcTL.Stop(); }
             if (TBLEnabled) ToggleThruster(Thruster.Bot_Left);
         }
 
         if (Input.GetButton("ThrusterBotRight"))
         {
             rb.AddForceAtPosition(0.5f * thrusterForce * -thrusterBR.transform.forward * Time.deltaTime, thrusterBR.transform.position);
+            srcBR.Play();
             if (!TBREnabled) ToggleThruster(Thruster.Bot_Right);
         }
         else
         {
+            if (srcBR.isPlaying) { srcTL.Stop(); }
             if (TBREnabled) ToggleThruster(Thruster.Bot_Right);
         }
     }

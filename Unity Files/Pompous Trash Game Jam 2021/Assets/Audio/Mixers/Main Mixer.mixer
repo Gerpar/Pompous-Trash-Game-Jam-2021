@@ -52,6 +52,25 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!243 &-4650908886007818693
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Russian Guyovich
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: a5fa3cc84177af84bb1b1ab5eed7a650
+  m_Children: []
+  m_Volume: ab4cac229e147444ca7531a69c7baa59
+  m_Pitch: 103cff92ba98ba74b93fe5f168bcdf5a
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -674740601273172528}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
 --- !u!243 &-3245941701211405360
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -85,6 +104,20 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!244 &-674740601273172528
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: e4f9c4d68279a044e8af049de4bd0dae
+  m_EffectName: Attenuation
+  m_MixLevel: 99ce7d9538945004e86487cb2a59b7dc
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!241 &24100000
 AudioMixerController:
   m_ObjectHideFlags: 0
@@ -107,6 +140,7 @@ AudioMixerController:
     - 17c3bc629e1b88d43b59c142cd4409e4
     - 7b8dd30f8f7e0c5488210b7f03ce58ba
     - 0ad372bbe9bb52d489caad2b732ffda2
+    - a5fa3cc84177af84bb1b1ab5eed7a650
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -123,6 +157,7 @@ AudioMixerGroupController:
   - {fileID: -6078816340959341535}
   - {fileID: -3245941701211405360}
   - {fileID: -5230978113251762809}
+  - {fileID: -4650908886007818693}
   m_Volume: e51fcd1fb78e6ec4b9f7e0eff343039f
   m_Pitch: 162233ae3cda0724785be11672b75583
   m_Send: 00000000000000000000000000000000
@@ -155,7 +190,9 @@ AudioMixerSnapshotController:
   m_Name: Snapshot
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: f9b36722729d87b45b2c56cb0f64ac97
-  m_FloatValues: {}
+  m_FloatValues:
+    ab4cac229e147444ca7531a69c7baa59: -10
+    c9054af7339a94b43bf5e1fdc5854166: 3
   m_TransitionOverrides: {}
 --- !u!244 &9150286335863263180
 AudioMixerEffectController:

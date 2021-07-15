@@ -4408,6 +4408,7 @@ MonoBehaviour:
   pauseMenu: {fileID: 6105566198710502230}
   groups:
   - {fileID: 6105566197818780466}
+  timerText: {fileID: 5758915860556824527}
 --- !u!1 &6105566198543099950
 GameObject:
   m_ObjectHideFlags: 0

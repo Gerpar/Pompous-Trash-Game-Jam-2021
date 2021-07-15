@@ -17,6 +17,7 @@ public class Game_UI_Manager : MonoBehaviour
     public CanvasGroup pauseMenu;
 
     public List<CanvasGroup> groups;
+    public Text timerText;
 
     private void Start()
     {

@@ -18,6 +18,8 @@ public class UI_Manager : MonoBehaviour
     private void Start()
     {
         instance = this;
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
     }
     //-------------------------------------------
     // These functions can be called anywhere by using UI_Manager.instance.yourFunction.
