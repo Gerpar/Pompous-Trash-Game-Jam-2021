@@ -6,20 +6,30 @@ public class MagnetController : MonoBehaviour
 {
     [SerializeField] float magnetStrength, magnetRadius;
     [SerializeField] LayerMask affectedLayer;
+    [SerializeField] ParticleSystem attachedParticles;
+    [SerializeField] float bumpMagnetDelay;
 
     List<Collider> attachedObjs;
     bool magnetized;
+    bool canUseMagnet;
+
+    float emissRate;
+    ParticleSystem.EmissionModule magPartEmiss;
 
     // Start is called before the first frame update
     void Start()
     {
         attachedObjs = new List<Collider>();
+        magPartEmiss = attachedParticles.emission;
+        emissRate = magPartEmiss.rateOverTime.constant;
+        magPartEmiss.rateOverTime = 0;
+        canUseMagnet = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Magnetize"))
+        if (Input.GetButtonDown("Magnetize") && canUseMagnet)
         {
             ToggleMagnet();
         }
@@ -39,6 +49,7 @@ public class MagnetController : MonoBehaviour
 
         if(!magnetized)
         {
+            magPartEmiss.rateOverTime = 0;
             int objCount = attachedObjs.Count;
             // Remove spring joints when magnet is deactivated
             for(int i = 0; i < objCount; i++)
@@ -46,6 +57,10 @@ public class MagnetController : MonoBehaviour
                 Destroy(attachedObjs[0].GetComponent<SpringJoint>());
                 attachedObjs.RemoveAt(0);
             }
+        }
+        else
+        {
+            magPartEmiss.rateOverTime = emissRate;
         }
     }
 
@@ -75,9 +90,30 @@ public class MagnetController : MonoBehaviour
         }
     }
 
+    public void DisableMagnet()
+    {
+        magnetized = false;
+        StartCoroutine(BumpDelay());
+        magPartEmiss.rateOverTime = 0;
+        int objCount = attachedObjs.Count;
+        // Remove spring joints when magnet is deactivated
+        for (int i = 0; i < objCount; i++)
+        {
+            Destroy(attachedObjs[0].GetComponent<SpringJoint>());
+            attachedObjs.RemoveAt(0);
+        }
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, magnetRadius);
+    }
+
+    IEnumerator BumpDelay()
+    {
+        canUseMagnet = false;
+        yield return new WaitForSeconds(bumpMagnetDelay);
+        canUseMagnet = true;
     }
 }

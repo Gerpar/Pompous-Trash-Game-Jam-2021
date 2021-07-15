@@ -14,6 +14,8 @@ public class VtolControls : MonoBehaviour
     [SerializeField] float minHeight = 1.0f;
     [SerializeField] float maxHeight = 5.0f;
     [SerializeField] ParticleSystem thrusterEnabledParticles, thrusterDisabledParticles;
+    [SerializeField] MagnetController attachedMagnet;
+    [SerializeField] GameObject bumpVFX;
 
     Rigidbody rb;
 
@@ -46,9 +48,12 @@ public class VtolControls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Thrusters();
-        Stabilizer();
-        HeightConstraint();
+        if(Time.timeScale != 0)
+        {
+            Thrusters();
+            Stabilizer();
+            HeightConstraint();
+        }
     }
 
     /// <summary>
@@ -226,6 +231,16 @@ public class VtolControls : MonoBehaviour
                     TBRCOL.color = thrusterDisabledParticles.colorOverLifetime.color;
                 }
                 break;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("Bumpable"))
+        {
+            attachedMagnet.DisableMagnet();
+            GameObject vfx = Instantiate(bumpVFX, collision.GetContact(0).point, transform.rotation, null);
+            Destroy(vfx, 10f);
         }
     }
 }
