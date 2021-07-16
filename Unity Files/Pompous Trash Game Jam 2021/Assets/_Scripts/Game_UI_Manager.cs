@@ -17,6 +17,7 @@ public class Game_UI_Manager : MonoBehaviour
     public CanvasGroup pauseMenu;
 
     public List<CanvasGroup> groups;
+    public Text timerText;
 
     private void Start()
     {
@@ -94,11 +95,15 @@ public class Game_UI_Manager : MonoBehaviour
     public void PauseGame()
     {
         Time.timeScale = 0;
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
     }
 
     public void ResumeGame()
     {
         Time.timeScale = 1;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 }
 
