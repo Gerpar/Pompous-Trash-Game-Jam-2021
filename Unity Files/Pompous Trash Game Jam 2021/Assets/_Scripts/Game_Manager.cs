@@ -11,6 +11,7 @@ public class Game_Manager : MonoBehaviour
     [Header("Managers")]
     [SerializeField] private Russian_Guyovich announcer;
     [SerializeField] private Game_UI_Manager ui;
+    
 
     [Header("Round time in seconds")]
     public float timer;
@@ -18,15 +19,18 @@ public class Game_Manager : MonoBehaviour
     [Header("Next level index")]
     public int sceneIndex;
 
+    [Header("Game objects required for level completion")]
+    [SerializeField] List<GameObject> collectableObjects;
+
     // If this becomes true, the timer stops.
     private bool isWon;
-    
 
     // Start is called before the first frame update
     void Start()
     {
         isWon = false;
         InitializeRound();
+        collectableObjects = new List<GameObject>();
     }
 
     //---------------------------------------------------------------------
