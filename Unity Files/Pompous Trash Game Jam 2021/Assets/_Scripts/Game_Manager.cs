@@ -33,6 +33,15 @@ public class Game_Manager : MonoBehaviour
         collectableObjects = new List<GameObject>();
     }
 
+    void Update()
+    {
+        // Check to see if all objects are gone from scene; if they are, end the round
+        if(collectableObjects.Count == 0)
+        {
+            RoundWon();
+        }
+    }
+
     //---------------------------------------------------------------------
     // Announcer speaks, cursor is locked, countdown timer begins.
     // TODO: keep track of all objects that can be placed in drop zones.
