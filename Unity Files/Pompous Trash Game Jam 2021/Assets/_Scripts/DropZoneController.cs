@@ -16,7 +16,7 @@ public class DropZoneController : MonoBehaviour
             gameObject.GetComponent<Renderer>().material.color = new Color(0, 128, 0);
             //If the GameObject's name matches the one you suggest, output this message in the console
             Debug.Log("Do something here");
-            board.SaveScore();
+            board.SaveScore("Jon", 9999);
         }
 
         //Check for a match with the specific tag on any GameObject that collides with your GameObject

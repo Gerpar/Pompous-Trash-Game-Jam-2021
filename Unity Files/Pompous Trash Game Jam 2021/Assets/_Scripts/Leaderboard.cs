@@ -7,8 +7,8 @@ using System.Runtime.Serialization.Formatters.Binary;
 public class Leaderboard : MonoBehaviour
 {
     int idNum = 0;
-    public DataEntry data;
-    public void SaveScore()
+    private DataEntry data;
+    public void SaveScore(string name, int score)
     {
         BinaryFormatter bf = new BinaryFormatter();
         string path = Application.persistentDataPath + "/data.fun";
@@ -16,7 +16,7 @@ public class Leaderboard : MonoBehaviour
         {
             FileStream stream = new FileStream(path, FileMode.Open);
 
-            data = new DataEntry("ajON", 999, idNum);
+            data = new DataEntry(name, score, idNum);
             idNum += 1;
             Debug.Log(data.userName);
             Debug.Log(data.score);
@@ -29,7 +29,7 @@ public class Leaderboard : MonoBehaviour
         {
             FileStream stream = new FileStream(path, FileMode.Create);
 
-            data = new DataEntry("jon", 999, idNum);
+            data = new DataEntry(name, score, idNum);
             idNum += 1;
             Debug.Log(data.userName);
             Debug.Log(data.score);
@@ -39,6 +39,8 @@ public class Leaderboard : MonoBehaviour
         }
     }
 
+    public GameObject score_row;
+
     public void GetLeaderBoard()
     {
         BinaryFormatter bf = new BinaryFormatter();
@@ -46,12 +48,16 @@ public class Leaderboard : MonoBehaviour
         if (File.Exists(path))
         {
             FileStream stream = new FileStream(path, FileMode.Open);
-
-            data = (DataEntry)bf.Deserialize(stream);
-
-            Debug.Log(data.userName);
-            Debug.Log(data.score);
-            Debug.Log(data.idNum);
+       
+            do
+            {
+                data = (DataEntry)bf.Deserialize(stream);
+                Debug.Log(data.userName);
+                Debug.Log(data.score);
+                Debug.Log(data.idNum);
+                //instantiate
+                Instantiate(score_row, transform.position, transform.rotation);
+            } while (data != null);  
 
             stream.Close();
         }
