@@ -11,7 +11,7 @@ public class Leaderboard : MonoBehaviour
     public void SaveScore(string name, int score)
     {
         BinaryFormatter bf = new BinaryFormatter();
-        string path = Application.persistentDataPath + "/data.fun";
+        string path = Application.persistentDataPath + "/data.bin";
         if (File.Exists(path))
         {
             FileStream stream = new FileStream(path, FileMode.Open);
@@ -44,7 +44,7 @@ public class Leaderboard : MonoBehaviour
     public void GetLeaderBoard()
     {
         BinaryFormatter bf = new BinaryFormatter();
-        string path = Application.persistentDataPath + "/data.fun";
+        string path = Application.persistentDataPath + "/data.bin";
         if (File.Exists(path))
         {
             FileStream stream = new FileStream(path, FileMode.Open);
@@ -56,7 +56,8 @@ public class Leaderboard : MonoBehaviour
                 Debug.Log(data.score);
                 Debug.Log(data.idNum);
                 //instantiate
-                Instantiate(score_row, transform.position, transform.rotation);
+                GameObject tempTextBox = Instantiate(score_row, transform.position, transform.rotation) as GameObject;
+                tempTextBox.transform.SetParent(gameObject.transform, false);
             } while (data != null);  
 
             stream.Close();
