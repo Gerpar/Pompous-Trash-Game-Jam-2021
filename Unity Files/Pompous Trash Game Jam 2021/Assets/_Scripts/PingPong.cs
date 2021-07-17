@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class PingPong : MonoBehaviour
 {
+    //---------------------------------------------------------------
+    // Move an object back and forth between two points.
+    //
+    // Created by Jared R.
+
     // Get a reference to the two points the platform will lerp between
     [SerializeField]
     private GameObject pointA;

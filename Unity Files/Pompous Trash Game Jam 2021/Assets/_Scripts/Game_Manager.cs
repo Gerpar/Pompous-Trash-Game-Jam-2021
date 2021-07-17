@@ -30,15 +30,17 @@ public class Game_Manager : MonoBehaviour
     {
         isWon = false;
         InitializeRound();
-        collectableObjects = new List<GameObject>();
     }
 
     void Update()
     {
+        // This removes null or missing objects from the list.
+        collectableObjects.RemoveAll(GameObject => GameObject == null);
+
         // Check to see if all objects are gone from scene; if they are, end the round
-        if(collectableObjects.Count == 0)
+        if(collectableObjects.Count == 0 || collectableObjects == null)
         {
-            RoundWon();
+            StartCoroutine(RoundWon());
         }
     }
 

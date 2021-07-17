@@ -8,6 +8,7 @@ public class UI_Manager : MonoBehaviour
 {
     //------------------------------------------
     // UI_Manager - Jared J Roberge
+    // 7/17/2020
     //
     // This script is a singleton item meant to be placed in every scene. Store a reference to every single canvasGroup component
     // in the groups list to use functions that affect all canvas groups.
