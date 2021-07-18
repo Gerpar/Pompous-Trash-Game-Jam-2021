@@ -3698,5 +3698,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level_02
       objectReference: {fileID: 0}
+    - target: {fileID: 7723244923646346822, guid: c8956364903542d4fa1167f5fed95b7e, type: 3}
+      propertyPath: m_TagString
+      value: Bumpable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8956364903542d4fa1167f5fed95b7e, type: 3}
