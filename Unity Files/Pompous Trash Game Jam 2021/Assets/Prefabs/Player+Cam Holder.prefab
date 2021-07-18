@@ -198,6 +198,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7546094278409678751, guid: 00731444537f53c4c9eec826df8deb71, type: 3}
   m_PrefabInstance: {fileID: 1249502055905121698}
   m_PrefabAsset: {fileID: 0}
+--- !u!20 &8785964029143104058 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7546094278409678744, guid: 00731444537f53c4c9eec826df8deb71, type: 3}
+  m_PrefabInstance: {fileID: 1249502055905121698}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8785964030255479191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -229,6 +234,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Magnet VFX
       objectReference: {fileID: 0}
+    - target: {fileID: 269950893989783826, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8785964029143104058}
+    - target: {fileID: 1117865046382649282, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8785964029143104058}
     - target: {fileID: 1374099134705860853, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
       propertyPath: bumpVFX
       value: 
@@ -237,6 +250,10 @@ PrefabInstance:
       propertyPath: attachedMagnet
       value: 
       objectReference: {fileID: 8785964030233583882}
+    - target: {fileID: 1382766271022991083, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1557013538026691241, guid: 80c26653087a3b14c8c20621fe4afa0f, type: 3}
     - target: {fileID: 1388654582275728844, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -285,6 +302,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerVTOL
       objectReference: {fileID: 0}
+    - target: {fileID: 1750030398425483635, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8785964029143104058}
+    - target: {fileID: 3197138301228231719, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8785964029143104058}
+    - target: {fileID: 3278050432996741924, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8785964029143104058}
     - target: {fileID: 3590938683327991377, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
       propertyPath: Loop
       value: 1
@@ -309,6 +338,22 @@ PrefabInstance:
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4536764301304394843, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 8785964029143104061}
+    - target: {fileID: 4901560276929415469, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 8785964029143104061}
+    - target: {fileID: 5490853394488205008, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 8785964029793107372}
+    - target: {fileID: 6605213480173270937, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 8785964029143104061}
     - target: {fileID: 7034114881383723923, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
       propertyPath: Loop
       value: 1
@@ -321,6 +366,10 @@ PrefabInstance:
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7423988527817945644, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 8785964029143104061}
     - target: {fileID: 7618045066898326192, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
       propertyPath: Loop
       value: 1

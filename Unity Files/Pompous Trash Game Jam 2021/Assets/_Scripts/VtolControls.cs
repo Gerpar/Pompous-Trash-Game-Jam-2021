@@ -22,6 +22,7 @@ public class VtolControls : MonoBehaviour
     [SerializeField] AudioSource srcTR;
     [SerializeField] AudioSource srcBL;
     [SerializeField] AudioSource srcBR;
+    [SerializeField] AudioSource srcBump;
 
     Rigidbody rb;
 
@@ -254,6 +255,7 @@ public class VtolControls : MonoBehaviour
         {
             attachedMagnet.DisableMagnet();
             GameObject vfx = Instantiate(bumpVFX, collision.GetContact(0).point, transform.rotation, null);
+            srcBump.Play();
             Destroy(vfx, 10f);
         }
     }
