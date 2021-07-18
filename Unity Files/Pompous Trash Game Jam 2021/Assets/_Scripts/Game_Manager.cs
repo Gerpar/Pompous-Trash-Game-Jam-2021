@@ -12,7 +12,6 @@ public class Game_Manager : MonoBehaviour
     [SerializeField] private Russian_Guyovich announcer;
     [SerializeField] private Game_UI_Manager ui;
     
-
     [Header("Round time in seconds")]
     public float timer;
 
@@ -25,11 +24,18 @@ public class Game_Manager : MonoBehaviour
     // If this becomes true, the timer stops.
     private bool isWon;
 
+    CurrentScore currentScoreScript;
+
     // Start is called before the first frame update
     void Start()
     {
         isWon = false;
         InitializeRound();
+    }
+
+    void Awake()
+    {
+        currentScoreScript = GameObject.FindGameObjectWithTag("ScoreHolder").GetComponent<CurrentScore>();
     }
 
     void Update()
