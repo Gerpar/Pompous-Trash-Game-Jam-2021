@@ -9,7 +9,7 @@ public class SaveManager : MonoBehaviour
     public GameObject btn;
     public void Save()
     {
-        btn.GetComponent<Leaderboard>().SaveScore(input, 999);
+        btn.GetComponent<Leaderboard>().SaveScore(input, GameObject.FindGameObjectWithTag("ScoreHolder").GetComponent<CurrentScore>().currentScore);
     }
 
     public void ReadStringInput(string s)
