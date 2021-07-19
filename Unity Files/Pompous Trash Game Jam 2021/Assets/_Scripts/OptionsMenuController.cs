@@ -15,11 +15,9 @@ public class OptionsMenuController : MonoBehaviour
     static public string P_GraphicsQuality = "graphicsQual";
     static public string P_ScreenResolution = "screenRes";
     static public string P_Fullscreen = "fullscreen";
-    static public string P_FOV = "fov";
     static public string P_SoundVolume = "soundVol";
     static public string P_MusicVolume = "musicVol";
     static public string P_SavedValues = "savedValues";
-    static public string P_Sensitivity = "sensetivity";
     #endregion
 
     #region Variables
@@ -29,8 +27,6 @@ public class OptionsMenuController : MonoBehaviour
     [SerializeField] Toggle fullscreenToggle;
     [SerializeField] Slider soundVolSlider;
     [SerializeField] Slider musicVolSlider;
-    [SerializeField] Slider sensitivitySlider;
-    [SerializeField] Text SensitivityText;
     [SerializeField] AudioMixer mixer;
 
     bool inGameMenu;
@@ -71,8 +67,8 @@ public class OptionsMenuController : MonoBehaviour
             inGameMenu = false;
         }
 
-        if (!(PlayerPrefs.HasKey(P_GraphicsQuality) && PlayerPrefs.HasKey(P_ScreenResolution) && PlayerPrefs.HasKey(P_Fullscreen) && PlayerPrefs.HasKey(P_FOV) && PlayerPrefs.HasKey(P_SoundVolume)
-            && PlayerPrefs.HasKey(P_MusicVolume) && PlayerPrefs.HasKey(P_Sensitivity)))
+        if (!(PlayerPrefs.HasKey(P_GraphicsQuality) && PlayerPrefs.HasKey(P_ScreenResolution) && PlayerPrefs.HasKey(P_Fullscreen) && PlayerPrefs.HasKey(P_SoundVolume)
+            && PlayerPrefs.HasKey(P_MusicVolume)))
         {
             InitializeValues();
         }
@@ -88,11 +84,9 @@ public class OptionsMenuController : MonoBehaviour
         PlayerPrefs.SetInt(P_GraphicsQuality, QualitySettings.GetQualityLevel());
         PlayerPrefs.SetInt(P_ScreenResolution, currentResInd);
         PlayerPrefs.SetInt(P_Fullscreen, 1);
-        PlayerPrefs.SetInt(P_FOV, 90);
         PlayerPrefs.SetFloat(P_SoundVolume, 1f);
         PlayerPrefs.SetFloat(P_MusicVolume, 1f);
         PlayerPrefs.SetInt(P_SavedValues, 1);
-        PlayerPrefs.SetFloat(P_Sensitivity, 1f);
         LoadValues();
     }
 
@@ -110,8 +104,6 @@ public class OptionsMenuController : MonoBehaviour
         float musicVol = PlayerPrefs.GetFloat(P_MusicVolume);
         musicVolSlider.SetValueWithoutNotify(musicVol);
         mixer.SetFloat("MusicVolume", Mathf.Log10(musicVol) * 20);
-
-        sensitivitySlider.SetValueWithoutNotify(PlayerPrefs.GetFloat(P_Sensitivity));
     }
 
     public void SelectGraphicsQuality(int graphicsIndex)
@@ -143,20 +135,6 @@ public class OptionsMenuController : MonoBehaviour
     {
         mixer.SetFloat("MusicVolume", Mathf.Log10(newMusicVolume) * 20);
         PlayerPrefs.SetFloat(P_MusicVolume, newMusicVolume);
-    }
-    public void SetSensitivity(float newSens)
-    {
-        PlayerPrefs.SetFloat(P_Sensitivity, newSens);
-        SensitivityText.text = newSens.ToString("F2");
-        if (inGameMenu)
-        {
-            if(playerObj == null)
-            {
-                playerObj = GameObject.FindGameObjectWithTag("Player");
-            }
-
-            //playerObj.GetComponent<PlayerController>().mouseSensitivity = newSens;
-        }
     }
 
     public void SetDefaultValues()
