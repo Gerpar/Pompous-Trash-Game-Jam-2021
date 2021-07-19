@@ -54,8 +54,15 @@ public class MagnetController : MonoBehaviour
             // Remove spring joints when magnet is deactivated
             for(int i = 0; i < objCount; i++)
             {
-                Destroy(attachedObjs[0].GetComponent<SpringJoint>());
-                attachedObjs.RemoveAt(0);
+                if(attachedObjs[0])
+                {
+                    Destroy(attachedObjs[0].GetComponent<SpringJoint>());
+                    attachedObjs.RemoveAt(0);
+                }
+                else
+                {
+                    attachedObjs.RemoveAt(0);
+                }
             }
         }
         else

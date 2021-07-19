@@ -234,6 +234,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6105566197818780467, guid: d65b6bba3124b9c46a6581dc3a051327, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 15.869995
+      objectReference: {fileID: 0}
     - target: {fileID: 6105566197926741552, guid: d65b6bba3124b9c46a6581dc3a051327, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1252,6 +1256,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7167237321772036881, guid: 39904590e50698242b496f50f1a11d99, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785964029451483473, guid: 39904590e50698242b496f50f1a11d99, type: 3}
+      propertyPath: m_Spring
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785964029709692307, guid: 39904590e50698242b496f50f1a11d99, type: 3}
+      propertyPath: m_Spring
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 8785964029793107372, guid: 39904590e50698242b496f50f1a11d99, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1299,6 +1315,26 @@ PrefabInstance:
     - target: {fileID: 8785964029793107373, guid: 39904590e50698242b496f50f1a11d99, type: 3}
       propertyPath: m_Name
       value: Player+Cam Holder
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785964030015850211, guid: 39904590e50698242b496f50f1a11d99, type: 3}
+      propertyPath: m_Spring
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785964030291005191, guid: 39904590e50698242b496f50f1a11d99, type: 3}
+      propertyPath: m_Spring
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785964030368806467, guid: 39904590e50698242b496f50f1a11d99, type: 3}
+      propertyPath: m_Spring
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785964030446254677, guid: 39904590e50698242b496f50f1a11d99, type: 3}
+      propertyPath: m_Spring
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785964031081084302, guid: 39904590e50698242b496f50f1a11d99, type: 3}
+      propertyPath: m_Spring
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39904590e50698242b496f50f1a11d99, type: 3}
