@@ -349,7 +349,7 @@ PrefabInstance:
     - target: {fileID: 5490853394488205008, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
       propertyPath: cameraTransform
       value: 
-      objectReference: {fileID: 8785964029793107372}
+      objectReference: {fileID: 8785964029143104061}
     - target: {fileID: 6605213480173270937, guid: d11d8b4138dddaf4380444558eafdca7, type: 3}
       propertyPath: cameraTransform
       value: 
