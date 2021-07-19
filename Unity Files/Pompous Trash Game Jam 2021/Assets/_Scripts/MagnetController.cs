@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Author: Gerad Paris
+// Script controls the magnet, and related actions for the player's VTOL
 public class MagnetController : MonoBehaviour
 {
     [SerializeField] float magnetStrength, magnetRadius;

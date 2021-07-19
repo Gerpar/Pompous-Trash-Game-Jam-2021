@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Author: Gerad Paris
+// Controls the VTOL thrusters, along with the stabilization for the VTOL itselt.
 public class VtolControls : MonoBehaviour
 {
     enum Thruster { Top_Left, Top_Right, Bot_Left, Bot_Right};
@@ -14,8 +16,11 @@ public class VtolControls : MonoBehaviour
     [SerializeField] float minHeight = 1.0f;
     [SerializeField] float maxHeight = 5.0f;
     [SerializeField] ParticleSystem thrusterEnabledParticles, thrusterDisabledParticles;
+    
+    [Header("Magnet Related")]
     [SerializeField] MagnetController attachedMagnet;
     [SerializeField] GameObject bumpVFX;
+    [SerializeField] float bumpForce;
 
     [Header("VTOL Audio")]
     [SerializeField] AudioSource srcTL;
@@ -257,6 +262,7 @@ public class VtolControls : MonoBehaviour
             GameObject vfx = Instantiate(bumpVFX, collision.GetContact(0).point, transform.rotation, null);
             srcBump.Play();
             Destroy(vfx, 10f);
+            rb.AddExplosionForce(bumpForce, collision.transform.position, 20.0f);
         }
     }
 }

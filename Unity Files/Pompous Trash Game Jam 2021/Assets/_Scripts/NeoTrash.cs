@@ -6,9 +6,6 @@ using UnityEngine;
 
 public class NeoTrash : MonoBehaviour
 {
-    public eTrash Trash;
-    public int pointValue;
-
     [HideInInspector]
     public Vector3 startPos;
 

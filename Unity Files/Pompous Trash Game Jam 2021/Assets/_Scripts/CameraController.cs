@@ -12,7 +12,6 @@ public class CameraController : MonoBehaviour
 
     Vector3 camOffset;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +28,9 @@ public class CameraController : MonoBehaviour
 
     private void LateUpdate()
     {
+        if(Time.timeScale == 0)
+            return;
+
         // Apply rotation to the offset
         Quaternion camTurnAngle = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * mouseSensitivity, Vector3.up);
 
@@ -65,6 +67,12 @@ public class CameraController : MonoBehaviour
         else
         {
             transform.position = Vector3.Slerp(transform.position, newPos, trackingSpeed);
+        }
+
+        RaycastHit hit;
+        if(Physics.Linecast(trackingObj.transform.position, transform.position, out hit))
+        {
+            transform.position = hit.point;
         }
 
         transform.LookAt(trackingObj.transform);

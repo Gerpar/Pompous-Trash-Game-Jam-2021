@@ -11,19 +11,21 @@ public class NeoDropZone : MonoBehaviour
     public Russian_Guyovich announcer;
     public int pointValue;
 
+    CurrentScore scoreScript;
+
+    private void Awake()
+    {
+        scoreScript = GameObject.FindGameObjectWithTag("ScoreHolder").GetComponent<CurrentScore>();
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         // If the two objects match, destroy and add points.
         if (collision.gameObject.layer == 6)
         {
-            // points += collisioncollision.gameObject.GetComponent<NeoTrash>().pointValue
+            scoreScript.AddScore(pointValue);
             announcer.Score();
             Destroy(collision.gameObject);
         }
     }
-}
-
-public enum eTrash
-{
-    MISC, A, B, C, D
 }
