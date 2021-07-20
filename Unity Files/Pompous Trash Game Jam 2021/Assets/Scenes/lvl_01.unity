@@ -951,6 +951,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: model_bleachers (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6130695475365677714, guid: be1b382ee9d6fe740ac22dde96f6066b, type: 3}
+      propertyPath: m_TagString
+      value: Bumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 6800237117381562408, guid: be1b382ee9d6fe740ac22dde96f6066b, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -1603,7 +1607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7710096993794406754, guid: 39904590e50698242b496f50f1a11d99, type: 3}
       propertyPath: maxHeight
-      value: 26
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7710096993794406754, guid: 39904590e50698242b496f50f1a11d99, type: 3}
       propertyPath: minHeight
@@ -2021,6 +2025,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: model_bleachers (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6130695475365677714, guid: be1b382ee9d6fe740ac22dde96f6066b, type: 3}
+      propertyPath: m_TagString
+      value: Bumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 6800237117381562408, guid: be1b382ee9d6fe740ac22dde96f6066b, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -2111,6 +2119,10 @@ PrefabInstance:
     - target: {fileID: 6130695475365677714, guid: be1b382ee9d6fe740ac22dde96f6066b, type: 3}
       propertyPath: m_Name
       value: model_bleachers
+      objectReference: {fileID: 0}
+    - target: {fileID: 6130695475365677714, guid: be1b382ee9d6fe740ac22dde96f6066b, type: 3}
+      propertyPath: m_TagString
+      value: Bumpable
       objectReference: {fileID: 0}
     - target: {fileID: 6800237117381562408, guid: be1b382ee9d6fe740ac22dde96f6066b, type: 3}
       propertyPath: m_RootOrder
