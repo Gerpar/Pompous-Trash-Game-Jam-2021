@@ -1617,13 +1617,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8785964029143104058, guid: 39904590e50698242b496f50f1a11d99, type: 3}
+      propertyPath: near clip plane
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 8785964029143104060, guid: 39904590e50698242b496f50f1a11d99, type: 3}
       propertyPath: clippingLayer.m_Bits
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8785964029143104060, guid: 39904590e50698242b496f50f1a11d99, type: 3}
       propertyPath: clippingLayers.m_Bits
-      value: 115
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 8785964029434320234, guid: 39904590e50698242b496f50f1a11d99, type: 3}
       propertyPath: m_Layer

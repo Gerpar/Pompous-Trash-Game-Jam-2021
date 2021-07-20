@@ -1945,6 +1945,14 @@ PrefabInstance:
       propertyPath: minHeight
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 8785964029143104058, guid: 39904590e50698242b496f50f1a11d99, type: 3}
+      propertyPath: near clip plane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785964029143104060, guid: 39904590e50698242b496f50f1a11d99, type: 3}
+      propertyPath: clippingLayers.m_Bits
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 8785964029451483473, guid: 39904590e50698242b496f50f1a11d99, type: 3}
       propertyPath: m_ConnectedAnchor.y
       value: 0.0031317365
