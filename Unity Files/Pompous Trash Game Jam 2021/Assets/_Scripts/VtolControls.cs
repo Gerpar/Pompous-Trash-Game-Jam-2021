@@ -262,7 +262,7 @@ public class VtolControls : MonoBehaviour
             GameObject vfx = Instantiate(bumpVFX, collision.GetContact(0).point, transform.rotation, null);
             srcBump.Play();
             Destroy(vfx, 10f);
-            rb.AddExplosionForce(bumpForce, collision.transform.position, 20.0f);
+            rb.AddExplosionForce(bumpForce, collision.GetContact(0).point, 20.0f);
         }
     }
 }

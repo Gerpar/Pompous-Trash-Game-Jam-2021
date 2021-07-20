@@ -9,6 +9,7 @@ public class CameraController : MonoBehaviour
     [SerializeField] float mouseSensitivity = 1.0f;
     [SerializeField] float zoomSensitivity = 10.0f;
     [SerializeField] float minZoomDistance, maxZoomDistance;
+    [SerializeField] LayerMask clippingLayers;
 
     Vector3 camOffset;
 
@@ -70,7 +71,8 @@ public class CameraController : MonoBehaviour
         }
 
         RaycastHit hit;
-        if(Physics.Linecast(trackingObj.transform.position, transform.position, out hit))
+        // Move the camera closer if it clips into any objects
+        if(Physics.Linecast(trackingObj.transform.position, transform.position, out hit, clippingLayers))
         {
             transform.position = hit.point;
         }
