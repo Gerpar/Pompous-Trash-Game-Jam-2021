@@ -94,6 +94,7 @@ public class Game_Manager : MonoBehaviour
     // TODO: Maybe include the scoring system?
     public IEnumerator GameOver()
     {
+        currentScoreScript.ResetScore();
         announcer.LoseRound();
         ui.timerText.text = "You Lose";
 

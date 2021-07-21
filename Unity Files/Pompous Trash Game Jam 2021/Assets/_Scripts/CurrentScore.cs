@@ -16,4 +16,9 @@ public class CurrentScore : MonoBehaviour
     {
         currentScore += scoreToAdd;
     }
+
+    public void ResetScore()
+    {
+        currentScore = 0;
+    }
 }
