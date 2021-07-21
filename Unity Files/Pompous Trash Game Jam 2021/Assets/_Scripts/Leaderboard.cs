@@ -26,9 +26,6 @@ public class Leaderboard : MonoBehaviour
             idNum = dataList.Count;
             // add new entry at correct location
             data = new DataEntry(name, score, idNum);
-            Debug.Log(data.userName);
-            Debug.Log(data.score);
-            Debug.Log(data.idNum);
             if (stream.Length > 0)
             {
                 int indexCounter = 0;
@@ -63,9 +60,6 @@ public class Leaderboard : MonoBehaviour
             idNum = dataList.Count;
 
             data = new DataEntry(name, score, idNum);
-            Debug.Log(data.userName);
-            Debug.Log(data.score);
-            Debug.Log(data.idNum);
 
             dataList.Add(data);
 
@@ -90,7 +84,7 @@ public class Leaderboard : MonoBehaviour
             dataList = (List<DataEntry>)bf.Deserialize(stream);
 
             GameObject tempTextBox1 = Instantiate(score_row, transform.position, transform.rotation) as GameObject;
-            tempTextBox1.GetComponent<Text>().text = "UserName|Score|Id";
+            tempTextBox1.GetComponent<Text>().text = "Id|UserName|Score";
 
             foreach (Transform child in content)
             {
@@ -101,12 +95,9 @@ public class Leaderboard : MonoBehaviour
 
             foreach (var entry in dataList)
             {
-                Debug.Log(entry.userName);
-                Debug.Log(entry.score);
-                Debug.Log(entry.idNum);
                 //instantiate
                 GameObject tempTextBox = Instantiate(score_row, transform.position, transform.rotation) as GameObject;
-                tempTextBox.GetComponent<Text>().text = entry.userName + " | " + entry.score + " | " + entry.idNum;
+                tempTextBox.GetComponent<Text>().text = entry.idNum + " | " + entry.userName + " | " + entry.score;
                 tempTextBox.transform.SetParent(gameObject.transform, false);
             } 
 
@@ -118,7 +109,7 @@ public class Leaderboard : MonoBehaviour
         }
     }
 
-    void Save()
+    void Start()
     {
         GetLeaderBoard();
     }
