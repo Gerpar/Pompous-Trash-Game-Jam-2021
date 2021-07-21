@@ -160,7 +160,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2613686088293553420, guid: 54416b92847c00c4ebcd025ba7fa97ff, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000018468383
+      value: 69.680046
       objectReference: {fileID: 0}
     - target: {fileID: 3201122208189268279, guid: 54416b92847c00c4ebcd025ba7fa97ff, type: 3}
       propertyPath: m_AnchorMax.x
@@ -537,6 +537,36 @@ PrefabInstance:
     - target: {fileID: 5561692604506459261, guid: 54416b92847c00c4ebcd025ba7fa97ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5561692604517923551, guid: 54416b92847c00c4ebcd025ba7fa97ff, type: 3}
+      propertyPath: m_Text
+      value: 'Trash Magnet
+
+
+        Created By:
+
+        Gerad Paris (Programmer
+        / VFX Artist), Jared Roberge (Designer), Jon Catalano (Programmer), and Aidan
+        Hastie (Artist)
+
+
+        Title Logo provided by Brandon Hodkin.
+
+
+        3D
+        Models created using Blender and Kenney Asset Forge.
+
+
+        Music created
+        by DST at
+
+        nosoapradio.us
+
+
+        Tracks Used:
+
+        5th Street,
+        OriginB, RainVision, Technobump'
       objectReference: {fileID: 0}
     - target: {fileID: 5561692604519315227, guid: 54416b92847c00c4ebcd025ba7fa97ff, type: 3}
       propertyPath: m_AnchorMax.y
