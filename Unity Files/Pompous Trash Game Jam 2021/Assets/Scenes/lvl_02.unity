@@ -384,6 +384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9912aa2a6ea5fca44bb3f142533a1295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  magnetScript: {fileID: 1751248223}
 --- !u!65 &115761798
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3043,6 +3044,10 @@ PrefabInstance:
       propertyPath: announcer
       value: 
       objectReference: {fileID: 1580374847}
+    - target: {fileID: 8149147430293972149, guid: 5874d59d52c510643a18552443b8c3ad, type: 3}
+      propertyPath: magnetScript
+      value: 
+      objectReference: {fileID: 1751248223}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5874d59d52c510643a18552443b8c3ad, type: 3}
 --- !u!1001 &1531166486
@@ -3323,7 +3328,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8785964029143104060, guid: 39904590e50698242b496f50f1a11d99, type: 3}
       propertyPath: clippingLayers.m_Bits
-      value: 55
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 8785964029451483473, guid: 39904590e50698242b496f50f1a11d99, type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -3443,6 +3448,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39904590e50698242b496f50f1a11d99, type: 3}
+--- !u!114 &1751248223 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8785964030233583882, guid: 39904590e50698242b496f50f1a11d99, type: 3}
+  m_PrefabInstance: {fileID: 1751248222}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00713a31d55bad04d871eaa8f407e2f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1809018595 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2975969303994522414, guid: f68b2678c683c2b4e8a1b0920596eea7, type: 3}
@@ -3986,6 +4002,10 @@ PrefabInstance:
       propertyPath: announcer
       value: 
       objectReference: {fileID: 1580374847}
+    - target: {fileID: 8149147430293972149, guid: 5874d59d52c510643a18552443b8c3ad, type: 3}
+      propertyPath: magnetScript
+      value: 
+      objectReference: {fileID: 1751248223}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5874d59d52c510643a18552443b8c3ad, type: 3}
 --- !u!1001 &4511734264109283795
@@ -4047,6 +4067,10 @@ PrefabInstance:
       propertyPath: announcer
       value: 
       objectReference: {fileID: 1580374847}
+    - target: {fileID: 7967148485781900999, guid: 8a74e44f9b6f8ab49ba4d4bf1c99cec2, type: 3}
+      propertyPath: magnetScript
+      value: 
+      objectReference: {fileID: 1751248223}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a74e44f9b6f8ab49ba4d4bf1c99cec2, type: 3}
 --- !u!1001 &6548969964326353312
