@@ -117,4 +117,9 @@ public class Leaderboard : MonoBehaviour
             Debug.LogError("Save file not found in " + path);
         }
     }
+
+    void Save()
+    {
+        GetLeaderBoard();
+    }
 }
