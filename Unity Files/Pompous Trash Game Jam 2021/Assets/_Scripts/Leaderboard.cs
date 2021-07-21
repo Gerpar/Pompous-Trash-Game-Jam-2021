@@ -35,7 +35,7 @@ public class Leaderboard : MonoBehaviour
                 foreach (var entry in dataList)
                 {
                     // check if new entry score is more than current entries score
-                    if (entry.score < data.score)
+                    if (entry.score <= data.score)
                     {
                         dataList.Insert(indexCounter, data);
                         break;
