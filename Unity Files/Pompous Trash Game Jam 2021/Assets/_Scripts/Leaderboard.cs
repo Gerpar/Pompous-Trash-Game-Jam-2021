@@ -1,27 +1,58 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
 public class Leaderboard : MonoBehaviour
 {
-    int idNum = 0;
+    int idNum;
     private DataEntry data;
+    private List<DataEntry> dataList = new List<DataEntry>();
     public void SaveScore(string name, int score)
     {
         BinaryFormatter bf = new BinaryFormatter();
-        string path = Application.persistentDataPath + "/data.bin";
+        string path = Application.persistentDataPath + "/save.data";
         if (File.Exists(path))
         {
+            // get file
             FileStream stream = new FileStream(path, FileMode.Open);
+            if (stream.Length>0)
+            {
+                dataList = (List<DataEntry>)bf.Deserialize(stream);
+            }
 
+            idNum = dataList.Count;
+            // add new entry at correct location
             data = new DataEntry(name, score, idNum);
-            idNum += 1;
             Debug.Log(data.userName);
             Debug.Log(data.score);
             Debug.Log(data.idNum);
-            bf.Serialize(stream, data);
+            if (stream.Length > 0)
+            {
+                int indexCounter = 0;
+                foreach (var entry in dataList)
+                {
+                    // check if new entry score is more than current entries score
+                    if (entry.score < data.score)
+                    {
+                        dataList.Insert(indexCounter, data);
+                        break;
+                    }
+                    indexCounter++;
+                }
+            }
+            else
+            {
+                dataList.Add(data);
+            }
+
+            // close old stream and create new stream
+            stream.Close();
+            stream = new FileStream(path, FileMode.Create);
+
+            bf.Serialize(stream, dataList);
 
             stream.Close();
         }
@@ -29,36 +60,55 @@ public class Leaderboard : MonoBehaviour
         {
             FileStream stream = new FileStream(path, FileMode.Create);
 
+            idNum = dataList.Count;
+
             data = new DataEntry(name, score, idNum);
-            idNum += 1;
             Debug.Log(data.userName);
             Debug.Log(data.score);
             Debug.Log(data.idNum);
-            bf.Serialize(stream, data);
+
+            dataList.Add(data);
+
+            bf.Serialize(stream, dataList);
+
             stream.Close();
         }
     }
 
+    public Transform content;
     public GameObject score_row;
 
     public void GetLeaderBoard()
     {
         BinaryFormatter bf = new BinaryFormatter();
-        string path = Application.persistentDataPath + "/data.bin";
+        string path = Application.persistentDataPath + "/save.data";
         if (File.Exists(path))
         {
+            // get file
             FileStream stream = new FileStream(path, FileMode.Open);
-       
-            do
+
+            dataList = (List<DataEntry>)bf.Deserialize(stream);
+
+            GameObject tempTextBox1 = Instantiate(score_row, transform.position, transform.rotation) as GameObject;
+            tempTextBox1.GetComponent<Text>().text = "UserName|Score|Id";
+
+            foreach (Transform child in content)
             {
-                data = (DataEntry)bf.Deserialize(stream);
-                Debug.Log(data.userName);
-                Debug.Log(data.score);
-                Debug.Log(data.idNum);
+                Destroy(child.gameObject);
+            }
+
+            tempTextBox1.transform.SetParent(gameObject.transform, false);
+
+            foreach (var entry in dataList)
+            {
+                Debug.Log(entry.userName);
+                Debug.Log(entry.score);
+                Debug.Log(entry.idNum);
                 //instantiate
                 GameObject tempTextBox = Instantiate(score_row, transform.position, transform.rotation) as GameObject;
+                tempTextBox.GetComponent<Text>().text = entry.userName + " | " + entry.score + " | " + entry.idNum;
                 tempTextBox.transform.SetParent(gameObject.transform, false);
-            } while (data != null);  
+            } 
 
             stream.Close();
         }
