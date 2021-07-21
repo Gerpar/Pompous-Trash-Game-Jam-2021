@@ -431,7 +431,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 9180551624023972909}
   m_HandleRect: {fileID: 3201122208189268279}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -6901,6 +6901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72cfa97f18330f441bd945dfca00e6a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  content: {fileID: 2613686088293553420}
   score_row: {fileID: 852592743111591914, guid: 2e2d7abcc43df954ca23df8b866f1a7a, type: 3}
 --- !u!1 &8472439355049031904
 GameObject:
