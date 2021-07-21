@@ -10,6 +10,7 @@ public class NeoDropZone : MonoBehaviour
     //public eTrash ZoneType;
     public Russian_Guyovich announcer;
     public int pointValue;
+    [SerializeField] MagnetController magnetScript;
 
     CurrentScore scoreScript;
 
@@ -23,6 +24,7 @@ public class NeoDropZone : MonoBehaviour
         // If the two objects match, destroy and add points.
         if (collision.gameObject.layer == 6)
         {
+            magnetScript.RemoveObject(collision.collider);
             scoreScript.AddScore(pointValue);
             announcer.Score();
             Destroy(collision.gameObject);

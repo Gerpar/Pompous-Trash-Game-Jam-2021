@@ -119,6 +119,12 @@ public class MagnetController : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, magnetRadius);
     }
 
+    public void RemoveObject(Collider objCollider)
+    {
+        Destroy(objCollider.GetComponent<SpringJoint>());
+        attachedObjs.Remove(objCollider);
+    }
+
     IEnumerator BumpDelay()
     {
         canUseMagnet = false;

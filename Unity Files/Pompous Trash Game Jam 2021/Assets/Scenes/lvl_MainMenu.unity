@@ -230,6 +230,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5561692603040063700, guid: 54416b92847c00c4ebcd025ba7fa97ff, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5561692603040063700, guid: 54416b92847c00c4ebcd025ba7fa97ff, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e543c9d4920c0e14eaa98639769d944b, type: 3}
+    - target: {fileID: 5561692603040063700, guid: 54416b92847c00c4ebcd025ba7fa97ff, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5561692603040063700, guid: 54416b92847c00c4ebcd025ba7fa97ff, type: 3}
+      propertyPath: m_Color.g
+      value: 0.28922388
+      objectReference: {fileID: 0}
+    - target: {fileID: 5561692603040063700, guid: 54416b92847c00c4ebcd025ba7fa97ff, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6509434
+      objectReference: {fileID: 0}
     - target: {fileID: 5561692603256158098, guid: 54416b92847c00c4ebcd025ba7fa97ff, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -326,6 +346,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5561692604221802596, guid: 54416b92847c00c4ebcd025ba7fa97ff, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5561692604221802596, guid: 54416b92847c00c4ebcd025ba7fa97ff, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5561692604221802596, guid: 54416b92847c00c4ebcd025ba7fa97ff, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5561692604239911868, guid: 54416b92847c00c4ebcd025ba7fa97ff, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -384,7 +416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5561692604451956789, guid: 54416b92847c00c4ebcd025ba7fa97ff, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5561692604451956789, guid: 54416b92847c00c4ebcd025ba7fa97ff, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1003,7 +1035,7 @@ Transform:
   m_LocalScale: {x: 1.6245, y: 1.6245, z: 1.6245}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1866934058 stripped
 GameObject:
