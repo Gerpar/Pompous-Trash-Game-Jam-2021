@@ -1943,7 +1943,7 @@ PrefabInstance:
       objectReference: {fileID: 1080825480604336155, guid: 80c26653087a3b14c8c20621fe4afa0f, type: 3}
     - target: {fileID: 7710096993794406754, guid: 39904590e50698242b496f50f1a11d99, type: 3}
       propertyPath: maxTilt
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7710096993794406754, guid: 39904590e50698242b496f50f1a11d99, type: 3}
       propertyPath: bumpForce
@@ -1951,11 +1951,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7710096993794406754, guid: 39904590e50698242b496f50f1a11d99, type: 3}
       propertyPath: maxHeight
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7710096993794406754, guid: 39904590e50698242b496f50f1a11d99, type: 3}
       propertyPath: minHeight
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8785964029143104058, guid: 39904590e50698242b496f50f1a11d99, type: 3}
       propertyPath: near clip plane
